@@ -1,0 +1,24 @@
+[0.147s] Invoking command in '/home/robotica/ros2taller2/build/mi_robot_servicio': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robotica/ros2taller2/install/mi_robot_3:/opt/ros/humble /usr/bin/cmake --build /home/robotica/ros2taller2/build/mi_robot_servicio -- -j4 -l4
+[4.216s] [  3%] Built target mi_robot_servicio__cpp
+[4.220s] [ 12%] Built target mi_robot_servicio__rosidl_generator_c
+[4.220s] [ 12%] Built target ament_cmake_python_copy_mi_robot_servicio
+[4.221s] [ 32%] Built target mi_robot_servicio__rosidl_typesupport_cpp
+[4.221s] [ 32%] Built target mi_robot_servicio__rosidl_typesupport_fastrtps_c
+[4.222s] [ 41%] Built target mi_robot_servicio__rosidl_typesupport_introspection_cpp
+[4.223s] [ 51%] Built target mi_robot_servicio__rosidl_typesupport_fastrtps_cpp
+[4.223s] [ 61%] Built target mi_robot_servicio__rosidl_typesupport_introspection_c
+[4.224s] [ 70%] Built target mi_robot_servicio__rosidl_typesupport_c
+[4.224s] [ 70%] Built target mi_robot_servicio
+[4.225s] [ 74%] Built target mi_robot_servicio__py
+[4.226s] [ 80%] Built target mi_robot_servicio__rosidl_generator_py
+[4.227s] [ 87%] Built target mi_robot_servicio__rosidl_typesupport_c__pyext
+[4.227s] [ 93%] Built target mi_robot_servicio__rosidl_typesupport_introspection_c__pyext
+[4.228s] [100%] Built target mi_robot_servicio__rosidl_typesupport_fastrtps_c__pyext
+[7.281s] running egg_info
+[7.283s] writing mi_robot_servicio.egg-info/PKG-INFO
+[7.285s] writing dependency_links to mi_robot_servicio.egg-info/dependency_links.txt
+[7.287s] writing top-level names to mi_robot_servicio.egg-info/top_level.txt
+[7.305s] reading manifest file 'mi_robot_servicio.egg-info/SOURCES.txt'
+[7.310s] writing manifest file 'mi_robot_servicio.egg-info/SOURCES.txt'
+[8.380s] [100%] Built target ament_cmake_python_build_mi_robot_servicio_egg
+[15.687s] Invoked command in '/home/robotica/ros2taller2/build/mi_robot_servicio' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robotica/ros2taller2/install/mi_robot_3:/opt/ros/humble /usr/bin/cmake --build /home/robotica/ros2taller2/build/mi_robot_servicio -- -j4 -l4

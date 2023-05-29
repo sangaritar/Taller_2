@@ -1,0 +1,6 @@
+{
+  "package_name": "mi_robot_servicio",
+  "non_idl_tuples": [
+    "/home/robotica/ros2taller2/src/mi_robot_servicio:srv/Player.srv"
+  ]
+}

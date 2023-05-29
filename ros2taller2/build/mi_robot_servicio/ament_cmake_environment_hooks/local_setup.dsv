@@ -1,0 +1,4 @@
+source;share/mi_robot_servicio/environment/ament_prefix_path.sh
+source;share/mi_robot_servicio/environment/library_path.sh
+source;share/mi_robot_servicio/environment/path.sh
+source;share/mi_robot_servicio/environment/pythonpath.sh

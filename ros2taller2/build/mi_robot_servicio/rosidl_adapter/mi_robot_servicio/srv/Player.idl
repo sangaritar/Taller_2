@@ -1,0 +1,15 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from mi_robot_servicio/srv/Player.srv
+// generated code does not contain a copyright notice
+
+
+module mi_robot_servicio {
+  module srv {
+    struct Player_Request {
+      string player;
+    };
+    struct Player_Response {
+      boolean sum;
+    };
+  };
+};
