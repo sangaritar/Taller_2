@@ -1,0 +1,6 @@
+[console_scripts]
+robot_interfaces = mi_robot_3.robot_interfaces:main
+robot_interfaces_N = mi_robot_3.robot_interfaces_N:main
+robot_player = mi_robot_3.robot_player:main
+robot_teleop = mi_robot_3.robot_teleop:main
+

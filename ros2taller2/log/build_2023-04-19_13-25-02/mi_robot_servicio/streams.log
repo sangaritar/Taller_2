@@ -1,0 +1,149 @@
+[1.509s] Invoking command in '/home/robotica/ros2taller2/build/mi_robot_servicio': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robotica/ros2taller2/install/mi_robot_3:/opt/ros/humble /usr/bin/cmake --build /home/robotica/ros2taller2/build/mi_robot_servicio -- -j4 -l4
+[2.419s] [  3%] Built target mi_robot_servicio__cpp
+[2.505s] [ 12%] Built target mi_robot_servicio__rosidl_generator_c
+[2.507s] [ 12%] Built target ament_cmake_python_copy_mi_robot_servicio
+[2.668s] [ 32%] Built target mi_robot_servicio__rosidl_typesupport_introspection_cpp
+[2.670s] [ 32%] Built target mi_robot_servicio__rosidl_typesupport_fastrtps_cpp
+[2.725s] [ 41%] Built target mi_robot_servicio__rosidl_typesupport_cpp
+[2.778s] [ 51%] Built target mi_robot_servicio__rosidl_typesupport_fastrtps_c
+[2.850s] [ 61%] Built target mi_robot_servicio__rosidl_typesupport_introspection_c
+[2.859s] [ 70%] Built target mi_robot_servicio__rosidl_typesupport_c
+[2.992s] [ 70%] Built target mi_robot_servicio
+[3.155s] [ 74%] Built target mi_robot_servicio__py
+[3.375s] [ 80%] Built target mi_robot_servicio__rosidl_generator_py
+[3.566s] [ 87%] Built target mi_robot_servicio__rosidl_typesupport_fastrtps_c__pyext
+[3.569s] [ 93%] Built target mi_robot_servicio__rosidl_typesupport_introspection_c__pyext
+[3.599s] [100%] Built target mi_robot_servicio__rosidl_typesupport_c__pyext
+[4.441s] running egg_info
+[4.451s] writing mi_robot_servicio.egg-info/PKG-INFO
+[4.456s] writing dependency_links to mi_robot_servicio.egg-info/dependency_links.txt
+[4.458s] writing top-level names to mi_robot_servicio.egg-info/top_level.txt
+[4.472s] reading manifest file 'mi_robot_servicio.egg-info/SOURCES.txt'
+[4.479s] writing manifest file 'mi_robot_servicio.egg-info/SOURCES.txt'
+[4.670s] [100%] Built target ament_cmake_python_build_mi_robot_servicio_egg
+[4.721s] Invoked command in '/home/robotica/ros2taller2/build/mi_robot_servicio' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robotica/ros2taller2/install/mi_robot_3:/opt/ros/humble /usr/bin/cmake --build /home/robotica/ros2taller2/build/mi_robot_servicio -- -j4 -l4
+[5.212s] Invoking command in '/home/robotica/ros2taller2/build/mi_robot_servicio': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robotica/ros2taller2/install/mi_robot_3:/opt/ros/humble /usr/bin/cmake --install /home/robotica/ros2taller2/build/mi_robot_servicio
+[5.257s] -- Install configuration: ""
+[5.258s] -- Up-to-date: /home/robotica/ros2taller2/install/mi_robot_servicio/share/ament_index/resource_index/rosidl_interfaces/mi_robot_servicio
+[5.261s] -- Up-to-date: /home/robotica/ros2taller2/install/mi_robot_servicio/include/mi_robot_servicio/mi_robot_servicio
+[5.262s] -- Up-to-date: /home/robotica/ros2taller2/install/mi_robot_servicio/include/mi_robot_servicio/mi_robot_servicio/srv
+[5.263s] -- Up-to-date: /home/robotica/ros2taller2/install/mi_robot_servicio/include/mi_robot_servicio/mi_robot_servicio/srv/player.h
+[5.264s] -- Up-to-date: /home/robotica/ros2taller2/install/mi_robot_servicio/include/mi_robot_servicio/mi_robot_servicio/srv/detail
+[5.265s] -- Up-to-date: /home/robotica/ros2taller2/install/mi_robot_servicio/include/mi_robot_servicio/mi_robot_servicio/srv/detail/player__type_support.h
+[5.265s] -- Up-to-date: /home/robotica/ros2taller2/install/mi_robot_servicio/include/mi_robot_servicio/mi_robot_servicio/srv/detail/player__functions.h
+[5.266s] -- Up-to-date: /home/robotica/ros2taller2/install/mi_robot_servicio/include/mi_robot_servicio/mi_robot_servicio/srv/detail/player__functions.c
+[5.267s] -- Up-to-date: /home/robotica/ros2taller2/install/mi_robot_servicio/include/mi_robot_servicio/mi_robot_servicio/srv/detail/player__struct.h
+[5.267s] -- Up-to-date: /home/robotica/ros2taller2/install/mi_robot_servicio/include/mi_robot_servicio/mi_robot_servicio/msg
+[5.269s] -- Up-to-date: /home/robotica/ros2taller2/install/mi_robot_servicio/include/mi_robot_servicio/mi_robot_servicio/msg/rosidl_generator_c__visibility_control.h
+[5.270s] -- Up-to-date: /home/robotica/ros2taller2/install/mi_robot_servicio/share/mi_robot_servicio/environment/library_path.sh
+[5.270s] -- Up-to-date: /home/robotica/ros2taller2/install/mi_robot_servicio/share/mi_robot_servicio/environment/library_path.dsv
+[5.271s] -- Up-to-date: /home/robotica/ros2taller2/install/mi_robot_servicio/lib/libmi_robot_servicio__rosidl_generator_c.so
+[5.273s] -- Up-to-date: /home/robotica/ros2taller2/install/mi_robot_servicio/include/mi_robot_servicio/mi_robot_servicio
+[5.273s] -- Up-to-date: /home/robotica/ros2taller2/install/mi_robot_servicio/include/mi_robot_servicio/mi_robot_servicio/srv
+[5.274s] -- Up-to-date: /home/robotica/ros2taller2/install/mi_robot_servicio/include/mi_robot_servicio/mi_robot_servicio/srv/detail
+[5.275s] -- Up-to-date: /home/robotica/ros2taller2/install/mi_robot_servicio/include/mi_robot_servicio/mi_robot_servicio/srv/detail/player__rosidl_typesupport_fastrtps_c.h
+[5.275s] -- Up-to-date: /home/robotica/ros2taller2/install/mi_robot_servicio/include/mi_robot_servicio/mi_robot_servicio/msg
+[5.276s] -- Up-to-date: /home/robotica/ros2taller2/install/mi_robot_servicio/include/mi_robot_servicio/mi_robot_servicio/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[5.277s] -- Up-to-date: /home/robotica/ros2taller2/install/mi_robot_servicio/lib/libmi_robot_servicio__rosidl_typesupport_fastrtps_c.so
+[5.279s] -- Up-to-date: /home/robotica/ros2taller2/install/mi_robot_servicio/include/mi_robot_servicio/mi_robot_servicio
+[5.279s] -- Up-to-date: /home/robotica/ros2taller2/install/mi_robot_servicio/include/mi_robot_servicio/mi_robot_servicio/srv
+[5.280s] -- Up-to-date: /home/robotica/ros2taller2/install/mi_robot_servicio/include/mi_robot_servicio/mi_robot_servicio/srv/player.hpp
+[5.281s] -- Up-to-date: /home/robotica/ros2taller2/install/mi_robot_servicio/include/mi_robot_servicio/mi_robot_servicio/srv/detail
+[5.281s] -- Up-to-date: /home/robotica/ros2taller2/install/mi_robot_servicio/include/mi_robot_servicio/mi_robot_servicio/srv/detail/player__builder.hpp
+[5.282s] -- Up-to-date: /home/robotica/ros2taller2/install/mi_robot_servicio/include/mi_robot_servicio/mi_robot_servicio/srv/detail/player__struct.hpp
+[5.283s] -- Up-to-date: /home/robotica/ros2taller2/install/mi_robot_servicio/include/mi_robot_servicio/mi_robot_servicio/srv/detail/player__traits.hpp
+[5.283s] -- Up-to-date: /home/robotica/ros2taller2/install/mi_robot_servicio/include/mi_robot_servicio/mi_robot_servicio
+[5.284s] -- Up-to-date: /home/robotica/ros2taller2/install/mi_robot_servicio/include/mi_robot_servicio/mi_robot_servicio/srv
+[5.285s] -- Up-to-date: /home/robotica/ros2taller2/install/mi_robot_servicio/include/mi_robot_servicio/mi_robot_servicio/srv/detail
+[5.285s] -- Up-to-date: /home/robotica/ros2taller2/install/mi_robot_servicio/include/mi_robot_servicio/mi_robot_servicio/srv/detail/player__rosidl_typesupport_fastrtps_cpp.hpp
+[5.286s] -- Up-to-date: /home/robotica/ros2taller2/install/mi_robot_servicio/include/mi_robot_servicio/mi_robot_servicio/srv/detail/dds_fastrtps
+[5.286s] -- Up-to-date: /home/robotica/ros2taller2/install/mi_robot_servicio/include/mi_robot_servicio/mi_robot_servicio/msg
+[5.287s] -- Up-to-date: /home/robotica/ros2taller2/install/mi_robot_servicio/include/mi_robot_servicio/mi_robot_servicio/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[5.291s] -- Up-to-date: /home/robotica/ros2taller2/install/mi_robot_servicio/lib/libmi_robot_servicio__rosidl_typesupport_fastrtps_cpp.so
+[5.292s] -- Up-to-date: /home/robotica/ros2taller2/install/mi_robot_servicio/include/mi_robot_servicio/mi_robot_servicio
+[5.293s] -- Up-to-date: /home/robotica/ros2taller2/install/mi_robot_servicio/include/mi_robot_servicio/mi_robot_servicio/srv
+[5.294s] -- Up-to-date: /home/robotica/ros2taller2/install/mi_robot_servicio/include/mi_robot_servicio/mi_robot_servicio/srv/detail
+[5.294s] -- Up-to-date: /home/robotica/ros2taller2/install/mi_robot_servicio/include/mi_robot_servicio/mi_robot_servicio/srv/detail/player__type_support.c
+[5.295s] -- Up-to-date: /home/robotica/ros2taller2/install/mi_robot_servicio/include/mi_robot_servicio/mi_robot_servicio/srv/detail/player__rosidl_typesupport_introspection_c.h
+[5.296s] -- Up-to-date: /home/robotica/ros2taller2/install/mi_robot_servicio/include/mi_robot_servicio/mi_robot_servicio/msg
+[5.296s] -- Up-to-date: /home/robotica/ros2taller2/install/mi_robot_servicio/include/mi_robot_servicio/mi_robot_servicio/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[5.300s] -- Up-to-date: /home/robotica/ros2taller2/install/mi_robot_servicio/lib/libmi_robot_servicio__rosidl_typesupport_introspection_c.so
+[5.303s] -- Up-to-date: /home/robotica/ros2taller2/install/mi_robot_servicio/lib/libmi_robot_servicio__rosidl_typesupport_c.so
+[5.304s] -- Up-to-date: /home/robotica/ros2taller2/install/mi_robot_servicio/include/mi_robot_servicio/mi_robot_servicio
+[5.305s] -- Up-to-date: /home/robotica/ros2taller2/install/mi_robot_servicio/include/mi_robot_servicio/mi_robot_servicio/srv
+[5.306s] -- Up-to-date: /home/robotica/ros2taller2/install/mi_robot_servicio/include/mi_robot_servicio/mi_robot_servicio/srv/detail
+[5.306s] -- Up-to-date: /home/robotica/ros2taller2/install/mi_robot_servicio/include/mi_robot_servicio/mi_robot_servicio/srv/detail/player__type_support.cpp
+[5.307s] -- Up-to-date: /home/robotica/ros2taller2/install/mi_robot_servicio/include/mi_robot_servicio/mi_robot_servicio/srv/detail/player__rosidl_typesupport_introspection_cpp.hpp
+[5.312s] -- Up-to-date: /home/robotica/ros2taller2/install/mi_robot_servicio/lib/libmi_robot_servicio__rosidl_typesupport_introspection_cpp.so
+[5.315s] -- Up-to-date: /home/robotica/ros2taller2/install/mi_robot_servicio/lib/libmi_robot_servicio__rosidl_typesupport_cpp.so
+[5.317s] -- Up-to-date: /home/robotica/ros2taller2/install/mi_robot_servicio/share/mi_robot_servicio/environment/pythonpath.sh
+[5.318s] -- Up-to-date: /home/robotica/ros2taller2/install/mi_robot_servicio/share/mi_robot_servicio/environment/pythonpath.dsv
+[5.318s] -- Up-to-date: /home/robotica/ros2taller2/install/mi_robot_servicio/local/lib/python3.10/dist-packages/mi_robot_servicio-0.0.0-py3.10.egg-info
+[5.319s] -- Installing: /home/robotica/ros2taller2/install/mi_robot_servicio/local/lib/python3.10/dist-packages/mi_robot_servicio-0.0.0-py3.10.egg-info/PKG-INFO
+[5.321s] -- Installing: /home/robotica/ros2taller2/install/mi_robot_servicio/local/lib/python3.10/dist-packages/mi_robot_servicio-0.0.0-py3.10.egg-info/top_level.txt
+[5.322s] -- Installing: /home/robotica/ros2taller2/install/mi_robot_servicio/local/lib/python3.10/dist-packages/mi_robot_servicio-0.0.0-py3.10.egg-info/SOURCES.txt
+[5.324s] -- Installing: /home/robotica/ros2taller2/install/mi_robot_servicio/local/lib/python3.10/dist-packages/mi_robot_servicio-0.0.0-py3.10.egg-info/dependency_links.txt
+[5.326s] -- Up-to-date: /home/robotica/ros2taller2/install/mi_robot_servicio/local/lib/python3.10/dist-packages/mi_robot_servicio
+[5.327s] -- Up-to-date: /home/robotica/ros2taller2/install/mi_robot_servicio/local/lib/python3.10/dist-packages/mi_robot_servicio/srv
+[5.327s] -- Up-to-date: /home/robotica/ros2taller2/install/mi_robot_servicio/local/lib/python3.10/dist-packages/mi_robot_servicio/srv/__init__.py
+[5.328s] -- Up-to-date: /home/robotica/ros2taller2/install/mi_robot_servicio/local/lib/python3.10/dist-packages/mi_robot_servicio/srv/_player.py
+[5.328s] -- Up-to-date: /home/robotica/ros2taller2/install/mi_robot_servicio/local/lib/python3.10/dist-packages/mi_robot_servicio/srv/_player_s.c
+[5.343s] -- Up-to-date: /home/robotica/ros2taller2/install/mi_robot_servicio/local/lib/python3.10/dist-packages/mi_robot_servicio/libmi_robot_servicio_srv__rosidl_generator_py.so
+[5.343s] -- Up-to-date: /home/robotica/ros2taller2/install/mi_robot_servicio/local/lib/python3.10/dist-packages/mi_robot_servicio/__init__.py
+[5.344s] -- Up-to-date: /home/robotica/ros2taller2/install/mi_robot_servicio/local/lib/python3.10/dist-packages/mi_robot_servicio/libmi_robot_servicio__rosidl_generator_py.so
+[5.344s] -- Up-to-date: /home/robotica/ros2taller2/install/mi_robot_servicio/local/lib/python3.10/dist-packages/mi_robot_servicio/mi_robot_servicio_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so
+[5.345s] -- Up-to-date: /home/robotica/ros2taller2/install/mi_robot_servicio/local/lib/python3.10/dist-packages/mi_robot_servicio/mi_robot_servicio_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so
+[5.346s] -- Up-to-date: /home/robotica/ros2taller2/install/mi_robot_servicio/local/lib/python3.10/dist-packages/mi_robot_servicio/mi_robot_servicio_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so
+[5.346s] -- Up-to-date: /home/robotica/ros2taller2/install/mi_robot_servicio/local/lib/python3.10/dist-packages/mi_robot_servicio/_mi_robot_servicio_s.ep.rosidl_typesupport_introspection_c.c
+[5.346s] -- Up-to-date: /home/robotica/ros2taller2/install/mi_robot_servicio/local/lib/python3.10/dist-packages/mi_robot_servicio/_mi_robot_servicio_s.ep.rosidl_typesupport_fastrtps_c.c
+[5.347s] -- Up-to-date: /home/robotica/ros2taller2/install/mi_robot_servicio/local/lib/python3.10/dist-packages/mi_robot_servicio/_mi_robot_servicio_s.ep.rosidl_typesupport_c.c
+[5.549s] Listing '/home/robotica/ros2taller2/install/mi_robot_servicio/local/lib/python3.10/dist-packages/mi_robot_servicio'...
+[5.552s] Listing '/home/robotica/ros2taller2/install/mi_robot_servicio/local/lib/python3.10/dist-packages/mi_robot_servicio/srv'...
+[5.591s] -- Up-to-date: /home/robotica/ros2taller2/install/mi_robot_servicio/local/lib/python3.10/dist-packages/mi_robot_servicio/mi_robot_servicio_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so
+[5.594s] -- Up-to-date: /home/robotica/ros2taller2/install/mi_robot_servicio/local/lib/python3.10/dist-packages/mi_robot_servicio/mi_robot_servicio_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so
+[5.597s] -- Up-to-date: /home/robotica/ros2taller2/install/mi_robot_servicio/local/lib/python3.10/dist-packages/mi_robot_servicio/mi_robot_servicio_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so
+[5.600s] -- Up-to-date: /home/robotica/ros2taller2/install/mi_robot_servicio/lib/libmi_robot_servicio__rosidl_generator_py.so
+[5.602s] -- Up-to-date: /home/robotica/ros2taller2/install/mi_robot_servicio/share/mi_robot_servicio/srv/Player.idl
+[5.603s] -- Up-to-date: /home/robotica/ros2taller2/install/mi_robot_servicio/share/mi_robot_servicio/srv/Player.srv
+[5.604s] -- Up-to-date: /home/robotica/ros2taller2/install/mi_robot_servicio/share/mi_robot_servicio/srv/Player_Request.msg
+[5.616s] -- Up-to-date: /home/robotica/ros2taller2/install/mi_robot_servicio/share/mi_robot_servicio/srv/Player_Response.msg
+[5.618s] -- Up-to-date: /home/robotica/ros2taller2/install/mi_robot_servicio/share/ament_index/resource_index/package_run_dependencies/mi_robot_servicio
+[5.619s] -- Up-to-date: /home/robotica/ros2taller2/install/mi_robot_servicio/share/ament_index/resource_index/parent_prefix_path/mi_robot_servicio
+[5.620s] -- Up-to-date: /home/robotica/ros2taller2/install/mi_robot_servicio/share/mi_robot_servicio/environment/ament_prefix_path.sh
+[5.621s] -- Up-to-date: /home/robotica/ros2taller2/install/mi_robot_servicio/share/mi_robot_servicio/environment/ament_prefix_path.dsv
+[5.621s] -- Up-to-date: /home/robotica/ros2taller2/install/mi_robot_servicio/share/mi_robot_servicio/environment/path.sh
+[5.622s] -- Up-to-date: /home/robotica/ros2taller2/install/mi_robot_servicio/share/mi_robot_servicio/environment/path.dsv
+[5.622s] -- Up-to-date: /home/robotica/ros2taller2/install/mi_robot_servicio/share/mi_robot_servicio/local_setup.bash
+[5.623s] -- Up-to-date: /home/robotica/ros2taller2/install/mi_robot_servicio/share/mi_robot_servicio/local_setup.sh
+[5.623s] -- Up-to-date: /home/robotica/ros2taller2/install/mi_robot_servicio/share/mi_robot_servicio/local_setup.zsh
+[5.624s] -- Up-to-date: /home/robotica/ros2taller2/install/mi_robot_servicio/share/mi_robot_servicio/local_setup.dsv
+[5.624s] -- Installing: /home/robotica/ros2taller2/install/mi_robot_servicio/share/mi_robot_servicio/package.dsv
+[5.626s] -- Up-to-date: /home/robotica/ros2taller2/install/mi_robot_servicio/share/ament_index/resource_index/packages/mi_robot_servicio
+[5.632s] -- Up-to-date: /home/robotica/ros2taller2/install/mi_robot_servicio/share/mi_robot_servicio/cmake/export_mi_robot_servicio__rosidl_generator_cExport.cmake
+[5.645s] -- Up-to-date: /home/robotica/ros2taller2/install/mi_robot_servicio/share/mi_robot_servicio/cmake/export_mi_robot_servicio__rosidl_generator_cExport-noconfig.cmake
+[5.645s] -- Up-to-date: /home/robotica/ros2taller2/install/mi_robot_servicio/share/mi_robot_servicio/cmake/export_mi_robot_servicio__rosidl_typesupport_fastrtps_cExport.cmake
+[5.646s] -- Up-to-date: /home/robotica/ros2taller2/install/mi_robot_servicio/share/mi_robot_servicio/cmake/export_mi_robot_servicio__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[5.646s] -- Up-to-date: /home/robotica/ros2taller2/install/mi_robot_servicio/share/mi_robot_servicio/cmake/export_mi_robot_servicio__rosidl_generator_cppExport.cmake
+[5.647s] -- Up-to-date: /home/robotica/ros2taller2/install/mi_robot_servicio/share/mi_robot_servicio/cmake/export_mi_robot_servicio__rosidl_typesupport_fastrtps_cppExport.cmake
+[5.647s] -- Up-to-date: /home/robotica/ros2taller2/install/mi_robot_servicio/share/mi_robot_servicio/cmake/export_mi_robot_servicio__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[5.649s] -- Up-to-date: /home/robotica/ros2taller2/install/mi_robot_servicio/share/mi_robot_servicio/cmake/mi_robot_servicio__rosidl_typesupport_introspection_cExport.cmake
+[5.651s] -- Up-to-date: /home/robotica/ros2taller2/install/mi_robot_servicio/share/mi_robot_servicio/cmake/mi_robot_servicio__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[5.658s] -- Up-to-date: /home/robotica/ros2taller2/install/mi_robot_servicio/share/mi_robot_servicio/cmake/mi_robot_servicio__rosidl_typesupport_cExport.cmake
+[5.659s] -- Up-to-date: /home/robotica/ros2taller2/install/mi_robot_servicio/share/mi_robot_servicio/cmake/mi_robot_servicio__rosidl_typesupport_cExport-noconfig.cmake
+[5.664s] -- Up-to-date: /home/robotica/ros2taller2/install/mi_robot_servicio/share/mi_robot_servicio/cmake/mi_robot_servicio__rosidl_typesupport_introspection_cppExport.cmake
+[5.665s] -- Up-to-date: /home/robotica/ros2taller2/install/mi_robot_servicio/share/mi_robot_servicio/cmake/mi_robot_servicio__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[5.669s] -- Up-to-date: /home/robotica/ros2taller2/install/mi_robot_servicio/share/mi_robot_servicio/cmake/mi_robot_servicio__rosidl_typesupport_cppExport.cmake
+[5.670s] -- Up-to-date: /home/robotica/ros2taller2/install/mi_robot_servicio/share/mi_robot_servicio/cmake/mi_robot_servicio__rosidl_typesupport_cppExport-noconfig.cmake
+[5.673s] -- Up-to-date: /home/robotica/ros2taller2/install/mi_robot_servicio/share/mi_robot_servicio/cmake/export_mi_robot_servicio__rosidl_generator_pyExport.cmake
+[5.674s] -- Up-to-date: /home/robotica/ros2taller2/install/mi_robot_servicio/share/mi_robot_servicio/cmake/export_mi_robot_servicio__rosidl_generator_pyExport-noconfig.cmake
+[5.675s] -- Up-to-date: /home/robotica/ros2taller2/install/mi_robot_servicio/share/mi_robot_servicio/cmake/rosidl_cmake-extras.cmake
+[5.676s] -- Up-to-date: /home/robotica/ros2taller2/install/mi_robot_servicio/share/mi_robot_servicio/cmake/ament_cmake_export_dependencies-extras.cmake
+[5.676s] -- Up-to-date: /home/robotica/ros2taller2/install/mi_robot_servicio/share/mi_robot_servicio/cmake/ament_cmake_export_include_directories-extras.cmake
+[5.677s] -- Up-to-date: /home/robotica/ros2taller2/install/mi_robot_servicio/share/mi_robot_servicio/cmake/ament_cmake_export_libraries-extras.cmake
+[5.678s] -- Up-to-date: /home/robotica/ros2taller2/install/mi_robot_servicio/share/mi_robot_servicio/cmake/ament_cmake_export_targets-extras.cmake
+[5.678s] -- Up-to-date: /home/robotica/ros2taller2/install/mi_robot_servicio/share/mi_robot_servicio/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[5.679s] -- Up-to-date: /home/robotica/ros2taller2/install/mi_robot_servicio/share/mi_robot_servicio/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[5.680s] -- Up-to-date: /home/robotica/ros2taller2/install/mi_robot_servicio/share/mi_robot_servicio/cmake/mi_robot_servicioConfig.cmake
+[5.680s] -- Up-to-date: /home/robotica/ros2taller2/install/mi_robot_servicio/share/mi_robot_servicio/cmake/mi_robot_servicioConfig-version.cmake
+[5.681s] -- Up-to-date: /home/robotica/ros2taller2/install/mi_robot_servicio/share/mi_robot_servicio/package.xml
+[5.695s] Invoked command in '/home/robotica/ros2taller2/build/mi_robot_servicio' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robotica/ros2taller2/install/mi_robot_3:/opt/ros/humble /usr/bin/cmake --install /home/robotica/ros2taller2/build/mi_robot_servicio

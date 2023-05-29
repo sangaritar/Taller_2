@@ -1,0 +1,642 @@
+[0.000000] (-) TimerEvent: {}
+[0.001767] (mi_robot_3) JobQueued: {'identifier': 'mi_robot_3', 'dependencies': OrderedDict()}
+[0.001914] (mi_robot_servicio) JobQueued: {'identifier': 'mi_robot_servicio', 'dependencies': OrderedDict()}
+[0.002012] (mi_robot_3) JobStarted: {'identifier': 'mi_robot_3'}
+[0.089867] (mi_robot_servicio) JobStarted: {'identifier': 'mi_robot_servicio'}
+[0.099234] (-) TimerEvent: {}
+[0.202939] (-) TimerEvent: {}
+[0.303726] (-) TimerEvent: {}
+[0.404478] (-) TimerEvent: {}
+[0.505221] (-) TimerEvent: {}
+[0.605998] (-) TimerEvent: {}
+[0.706750] (-) TimerEvent: {}
+[0.807454] (-) TimerEvent: {}
+[0.908161] (-) TimerEvent: {}
+[1.008878] (-) TimerEvent: {}
+[1.109643] (-) TimerEvent: {}
+[1.210365] (-) TimerEvent: {}
+[1.311155] (-) TimerEvent: {}
+[1.412013] (-) TimerEvent: {}
+[1.472670] (mi_robot_servicio) JobProgress: {'identifier': 'mi_robot_servicio', 'progress': 'cmake'}
+[1.473875] (mi_robot_servicio) Command: {'cmd': ['/usr/bin/cmake', '/home/robotica/ros2taller2/src/mi_robot_servicio', '-DCMAKE_INSTALL_PREFIX=/home/robotica/ros2taller2/install/mi_robot_servicio'], 'cwd': '/home/robotica/ros2taller2/build/mi_robot_servicio', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'es:en'), ('USER', 'robotica'), ('LC_TIME', 'es_CO.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/robotica/ros2_taller_2/install/mi_robot_servicio/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/robotica'), ('OLDPWD', '/home/robotica'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'es_CO.UTF-8'), ('SYSTEMD_EXEC_PID', '4093'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/robotica/ros2_taller_2/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'robotica'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'robotica'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/robotica-desktop:@/tmp/.ICE-unix/2049,unix/robotica-desktop:/tmp/.ICE-unix/2049'), ('PAPERSIZE', 'letter'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'es_CO.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/f4dbc80a_a5c1_4687_80a2_214530fd0b9c'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'es_CO.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'es_CO.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.100'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '5'), ('AMENT_PREFIX_PATH', '/home/robotica/ros2_taller_2/install/mi_robot_servicio:/home/robotica/ros2_taller_2/install/mi_robot_3:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'es_CO.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'es_CO.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'es_CO.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/robotica/ros2taller2/build/mi_robot_servicio'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/robotica/ros2_taller_2/install/mi_robot_servicio/local/lib/python3.10/dist-packages:/home/robotica/ros2_taller_2/install/mi_robot_3/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'es_CO.UTF-8'), ('LC_PAPER', 'es_CO.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/robotica/ros2_taller_2/install/mi_robot_servicio:/home/robotica/ros2_taller_2/install/mi_robot_3:/opt/ros/humble')]), 'shell': False}
+[1.515004] (-) TimerEvent: {}
+[1.616872] (-) TimerEvent: {}
+[1.717909] (-) TimerEvent: {}
+[1.818725] (-) TimerEvent: {}
+[1.919547] (-) TimerEvent: {}
+[2.020538] (-) TimerEvent: {}
+[2.121367] (-) TimerEvent: {}
+[2.222303] (-) TimerEvent: {}
+[2.323386] (-) TimerEvent: {}
+[2.425197] (-) TimerEvent: {}
+[2.526070] (-) TimerEvent: {}
+[2.627095] (-) TimerEvent: {}
+[2.727971] (-) TimerEvent: {}
+[2.763511] (mi_robot_servicio) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.3.0\n'}
+[2.828145] (-) TimerEvent: {}
+[2.942363] (-) TimerEvent: {}
+[3.043391] (-) TimerEvent: {}
+[3.144359] (-) TimerEvent: {}
+[3.245758] (-) TimerEvent: {}
+[3.346796] (-) TimerEvent: {}
+[3.447658] (-) TimerEvent: {}
+[3.548574] (-) TimerEvent: {}
+[3.625904] (mi_robot_servicio) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.3.0\n'}
+[3.648731] (-) TimerEvent: {}
+[3.718900] (mi_robot_servicio) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[3.749081] (-) TimerEvent: {}
+[3.850309] (-) TimerEvent: {}
+[3.860182] (mi_robot_3) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/mi_robot_3', 'build', '--build-base', '/home/robotica/ros2taller2/build/mi_robot_3/build', 'install', '--record', '/home/robotica/ros2taller2/build/mi_robot_3/install.log', '--single-version-externally-managed'], 'cwd': '/home/robotica/ros2taller2/src/mi_robot_3', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'es:en', 'USER': 'robotica', 'LC_TIME': 'es_CO.UTF-8', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/robotica/ros2_taller_2/install/mi_robot_servicio/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/robotica', 'OLDPWD': '/home/robotica', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'es_CO.UTF-8', 'SYSTEMD_EXEC_PID': '4093', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'COLCON_PREFIX_PATH': '/home/robotica/ros2_taller_2/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'robotica', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'robotica', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/robotica-desktop:@/tmp/.ICE-unix/2049,unix/robotica-desktop:/tmp/.ICE-unix/2049', 'PAPERSIZE': 'letter', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'es_CO.UTF-8', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/f4dbc80a_a5c1_4687_80a2_214530fd0b9c', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':1', 'LANG': 'es_CO.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'es_CO.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.100', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'ROS_DOMAIN_ID': '5', 'AMENT_PREFIX_PATH': '/home/robotica/ros2_taller_2/install/mi_robot_servicio:/home/robotica/ros2_taller_2/install/mi_robot_3:/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'es_CO.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'es_CO.UTF-8', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'LC_IDENTIFICATION': 'es_CO.UTF-8', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/robotica/ros2taller2/build/mi_robot_3', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/robotica/ros2taller2/build/mi_robot_3/prefix_override:/home/robotica/ros2taller2/install/mi_robot_3/lib/python3.10/site-packages:/home/robotica/ros2_taller_2/install/mi_robot_servicio/local/lib/python3.10/dist-packages:/home/robotica/ros2_taller_2/install/mi_robot_3/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'es_CO.UTF-8', 'LC_PAPER': 'es_CO.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/robotica/ros2_taller_2/install/mi_robot_servicio'}, 'shell': False}
+[3.950489] (-) TimerEvent: {}
+[4.051889] (-) TimerEvent: {}
+[4.152608] (-) TimerEvent: {}
+[4.253377] (-) TimerEvent: {}
+[4.370392] (-) TimerEvent: {}
+[4.471579] (-) TimerEvent: {}
+[4.531438] (mi_robot_servicio) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[4.567758] (mi_robot_servicio) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[4.571860] (-) TimerEvent: {}
+[4.573177] (mi_robot_servicio) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[4.575784] (mi_robot_servicio) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[4.594421] (mi_robot_servicio) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[4.672080] (-) TimerEvent: {}
+[4.775050] (-) TimerEvent: {}
+[4.876031] (-) TimerEvent: {}
+[4.977471] (-) TimerEvent: {}
+[5.079892] (-) TimerEvent: {}
+[5.111626] (mi_robot_servicio) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[5.143018] (mi_robot_servicio) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[5.144600] (mi_robot_servicio) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[5.146425] (mi_robot_servicio) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[5.180101] (-) TimerEvent: {}
+[5.255493] (mi_robot_servicio) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.3 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[5.280278] (-) TimerEvent: {}
+[5.381089] (-) TimerEvent: {}
+[5.486915] (-) TimerEvent: {}
+[5.506139] (mi_robot_3) StdoutLine: {'line': b'running egg_info\n'}
+[5.509092] (mi_robot_3) StdoutLine: {'line': b'creating ../../build/mi_robot_3/mi_robot_3.egg-info\n'}
+[5.510012] (mi_robot_3) StdoutLine: {'line': b'writing ../../build/mi_robot_3/mi_robot_3.egg-info/PKG-INFO\n'}
+[5.511711] (mi_robot_3) StdoutLine: {'line': b'writing dependency_links to ../../build/mi_robot_3/mi_robot_3.egg-info/dependency_links.txt\n'}
+[5.512546] (mi_robot_3) StdoutLine: {'line': b'writing entry points to ../../build/mi_robot_3/mi_robot_3.egg-info/entry_points.txt\n'}
+[5.513320] (mi_robot_3) StdoutLine: {'line': b'writing requirements to ../../build/mi_robot_3/mi_robot_3.egg-info/requires.txt\n'}
+[5.514064] (mi_robot_3) StdoutLine: {'line': b'writing top-level names to ../../build/mi_robot_3/mi_robot_3.egg-info/top_level.txt\n'}
+[5.522643] (mi_robot_3) StdoutLine: {'line': b"writing manifest file '../../build/mi_robot_3/mi_robot_3.egg-info/SOURCES.txt'\n"}
+[5.526880] (mi_robot_3) StdoutLine: {'line': b"reading manifest file '../../build/mi_robot_3/mi_robot_3.egg-info/SOURCES.txt'\n"}
+[5.538957] (mi_robot_3) StdoutLine: {'line': b"writing manifest file '../../build/mi_robot_3/mi_robot_3.egg-info/SOURCES.txt'\n"}
+[5.545219] (mi_robot_3) StdoutLine: {'line': b'running build\n'}
+[5.548483] (mi_robot_3) StdoutLine: {'line': b'running build_py\n'}
+[5.549501] (mi_robot_3) StdoutLine: {'line': b'creating /home/robotica/ros2taller2/build/mi_robot_3/build\n'}
+[5.550603] (mi_robot_3) StdoutLine: {'line': b'creating /home/robotica/ros2taller2/build/mi_robot_3/build/lib\n'}
+[5.551465] (mi_robot_3) StdoutLine: {'line': b'creating /home/robotica/ros2taller2/build/mi_robot_3/build/lib/mi_robot_3\n'}
+[5.552249] (mi_robot_3) StdoutLine: {'line': b'copying mi_robot_3/__init__.py -> /home/robotica/ros2taller2/build/mi_robot_3/build/lib/mi_robot_3\n'}
+[5.553281] (mi_robot_3) StdoutLine: {'line': b'copying mi_robot_3/robot_interfaces_N.py -> /home/robotica/ros2taller2/build/mi_robot_3/build/lib/mi_robot_3\n'}
+[5.555357] (mi_robot_3) StdoutLine: {'line': b'copying mi_robot_3/robot_teleop.py -> /home/robotica/ros2taller2/build/mi_robot_3/build/lib/mi_robot_3\n'}
+[5.557896] (mi_robot_3) StdoutLine: {'line': b'copying mi_robot_3/robot_interfaces.py -> /home/robotica/ros2taller2/build/mi_robot_3/build/lib/mi_robot_3\n'}
+[5.560958] (mi_robot_3) StdoutLine: {'line': b'copying mi_robot_3/robot_player.py -> /home/robotica/ros2taller2/build/mi_robot_3/build/lib/mi_robot_3\n'}
+[5.562483] (mi_robot_3) StdoutLine: {'line': b'running install\n'}
+[5.564495] (mi_robot_3) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.\n'}
+[5.565317] (mi_robot_3) StderrLine: {'line': b'  warnings.warn(\n'}
+[5.566422] (mi_robot_3) StdoutLine: {'line': b'running install_lib\n'}
+[5.570509] (mi_robot_3) StdoutLine: {'line': b'creating /home/robotica/ros2taller2/install/mi_robot_3/lib/python3.10/site-packages/mi_robot_3\n'}
+[5.571255] (mi_robot_3) StdoutLine: {'line': b'copying /home/robotica/ros2taller2/build/mi_robot_3/build/lib/mi_robot_3/__init__.py -> /home/robotica/ros2taller2/install/mi_robot_3/lib/python3.10/site-packages/mi_robot_3\n'}
+[5.571966] (mi_robot_3) StdoutLine: {'line': b'copying /home/robotica/ros2taller2/build/mi_robot_3/build/lib/mi_robot_3/robot_interfaces_N.py -> /home/robotica/ros2taller2/install/mi_robot_3/lib/python3.10/site-packages/mi_robot_3\n'}
+[5.572993] (mi_robot_3) StdoutLine: {'line': b'copying /home/robotica/ros2taller2/build/mi_robot_3/build/lib/mi_robot_3/robot_teleop.py -> /home/robotica/ros2taller2/install/mi_robot_3/lib/python3.10/site-packages/mi_robot_3\n'}
+[5.573871] (mi_robot_3) StdoutLine: {'line': b'copying /home/robotica/ros2taller2/build/mi_robot_3/build/lib/mi_robot_3/robot_interfaces.py -> /home/robotica/ros2taller2/install/mi_robot_3/lib/python3.10/site-packages/mi_robot_3\n'}
+[5.574896] (mi_robot_3) StdoutLine: {'line': b'copying /home/robotica/ros2taller2/build/mi_robot_3/build/lib/mi_robot_3/robot_player.py -> /home/robotica/ros2taller2/install/mi_robot_3/lib/python3.10/site-packages/mi_robot_3\n'}
+[5.577951] (mi_robot_3) StdoutLine: {'line': b'byte-compiling /home/robotica/ros2taller2/install/mi_robot_3/lib/python3.10/site-packages/mi_robot_3/__init__.py to __init__.cpython-310.pyc\n'}
+[5.579906] (mi_robot_3) StdoutLine: {'line': b'byte-compiling /home/robotica/ros2taller2/install/mi_robot_3/lib/python3.10/site-packages/mi_robot_3/robot_interfaces_N.py to robot_interfaces_N.cpython-310.pyc\n'}
+[5.587221] (-) TimerEvent: {}
+[5.590781] (mi_robot_3) StdoutLine: {'line': b'byte-compiling /home/robotica/ros2taller2/install/mi_robot_3/lib/python3.10/site-packages/mi_robot_3/robot_teleop.py to robot_teleop.cpython-310.pyc\n'}
+[5.594240] (mi_robot_3) StdoutLine: {'line': b'byte-compiling /home/robotica/ros2taller2/install/mi_robot_3/lib/python3.10/site-packages/mi_robot_3/robot_interfaces.py to robot_interfaces.cpython-310.pyc\n'}
+[5.597110] (mi_robot_3) StdoutLine: {'line': b'byte-compiling /home/robotica/ros2taller2/install/mi_robot_3/lib/python3.10/site-packages/mi_robot_3/robot_player.py to robot_player.cpython-310.pyc\n'}
+[5.600222] (mi_robot_3) StdoutLine: {'line': b'running install_data\n'}
+[5.602807] (mi_robot_3) StdoutLine: {'line': b'creating /home/robotica/ros2taller2/install/mi_robot_3/share/ament_index\n'}
+[5.603682] (mi_robot_3) StdoutLine: {'line': b'creating /home/robotica/ros2taller2/install/mi_robot_3/share/ament_index/resource_index\n'}
+[5.604360] (mi_robot_3) StdoutLine: {'line': b'creating /home/robotica/ros2taller2/install/mi_robot_3/share/ament_index/resource_index/packages\n'}
+[5.604766] (mi_robot_3) StdoutLine: {'line': b'copying resource/mi_robot_3 -> /home/robotica/ros2taller2/install/mi_robot_3/share/ament_index/resource_index/packages\n'}
+[5.605314] (mi_robot_3) StdoutLine: {'line': b'copying package.xml -> /home/robotica/ros2taller2/install/mi_robot_3/share/mi_robot_3\n'}
+[5.608178] (mi_robot_3) StdoutLine: {'line': b'running install_egg_info\n'}
+[5.618420] (mi_robot_3) StdoutLine: {'line': b'Copying ../../build/mi_robot_3/mi_robot_3.egg-info to /home/robotica/ros2taller2/install/mi_robot_3/lib/python3.10/site-packages/mi_robot_3-0.0.0-py3.10.egg-info\n'}
+[5.625276] (mi_robot_3) StdoutLine: {'line': b'running install_scripts\n'}
+[5.687460] (-) TimerEvent: {}
+[5.761318] (mi_robot_3) StdoutLine: {'line': b'Installing robot_interfaces script to /home/robotica/ros2taller2/install/mi_robot_3/lib/mi_robot_3\n'}
+[5.762309] (mi_robot_3) StdoutLine: {'line': b'Installing robot_interfaces_N script to /home/robotica/ros2taller2/install/mi_robot_3/lib/mi_robot_3\n'}
+[5.763171] (mi_robot_3) StdoutLine: {'line': b'Installing robot_player script to /home/robotica/ros2taller2/install/mi_robot_3/lib/mi_robot_3\n'}
+[5.763892] (mi_robot_3) StdoutLine: {'line': b'Installing robot_teleop script to /home/robotica/ros2taller2/install/mi_robot_3/lib/mi_robot_3\n'}
+[5.765318] (mi_robot_3) StdoutLine: {'line': b"writing list of installed files to '/home/robotica/ros2taller2/build/mi_robot_3/install.log'\n"}
+[5.788012] (-) TimerEvent: {}
+[5.895641] (-) TimerEvent: {}
+[5.984279] (mi_robot_3) CommandEnded: {'returncode': 0}
+[5.996218] (-) TimerEvent: {}
+[6.097367] (-) TimerEvent: {}
+[6.113394] (mi_robot_3) JobEnded: {'identifier': 'mi_robot_3', 'rc': 0}
+[6.197581] (-) TimerEvent: {}
+[6.298350] (-) TimerEvent: {}
+[6.374963] (mi_robot_servicio) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter \n'}
+[6.398583] (-) TimerEvent: {}
+[6.499565] (-) TimerEvent: {}
+[6.600536] (-) TimerEvent: {}
+[6.701294] (-) TimerEvent: {}
+[6.802064] (-) TimerEvent: {}
+[6.902899] (-) TimerEvent: {}
+[7.003708] (-) TimerEvent: {}
+[7.104524] (-) TimerEvent: {}
+[7.192821] (mi_robot_servicio) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.5 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[7.204737] (-) TimerEvent: {}
+[7.305617] (-) TimerEvent: {}
+[7.406423] (-) TimerEvent: {}
+[7.507235] (-) TimerEvent: {}
+[7.608108] (-) TimerEvent: {}
+[7.708853] (-) TimerEvent: {}
+[7.792156] (mi_robot_servicio) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[7.809065] (-) TimerEvent: {}
+[7.840198] (mi_robot_servicio) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[7.909260] (-) TimerEvent: {}
+[7.936889] (mi_robot_servicio) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[8.009458] (-) TimerEvent: {}
+[8.110353] (-) TimerEvent: {}
+[8.211130] (-) TimerEvent: {}
+[8.311881] (-) TimerEvent: {}
+[8.405977] (mi_robot_servicio) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[8.412063] (-) TimerEvent: {}
+[8.512852] (-) TimerEvent: {}
+[8.613737] (-) TimerEvent: {}
+[8.714520] (-) TimerEvent: {}
+[8.815235] (-) TimerEvent: {}
+[8.916117] (-) TimerEvent: {}
+[9.017458] (-) TimerEvent: {}
+[9.118508] (-) TimerEvent: {}
+[9.219333] (-) TimerEvent: {}
+[9.320051] (-) TimerEvent: {}
+[9.420820] (-) TimerEvent: {}
+[9.521591] (-) TimerEvent: {}
+[9.622438] (-) TimerEvent: {}
+[9.723260] (-) TimerEvent: {}
+[9.765853] (mi_robot_servicio) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[9.823468] (-) TimerEvent: {}
+[9.924163] (-) TimerEvent: {}
+[10.024885] (-) TimerEvent: {}
+[10.125607] (-) TimerEvent: {}
+[10.226547] (-) TimerEvent: {}
+[10.327350] (-) TimerEvent: {}
+[10.428062] (-) TimerEvent: {}
+[10.528764] (-) TimerEvent: {}
+[10.629822] (-) TimerEvent: {}
+[10.731185] (-) TimerEvent: {}
+[10.746323] (mi_robot_servicio) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[10.831331] (-) TimerEvent: {}
+[10.932228] (-) TimerEvent: {}
+[11.033575] (-) TimerEvent: {}
+[11.134818] (-) TimerEvent: {}
+[11.235790] (-) TimerEvent: {}
+[11.337137] (-) TimerEvent: {}
+[11.437850] (-) TimerEvent: {}
+[11.538644] (-) TimerEvent: {}
+[11.640077] (-) TimerEvent: {}
+[11.741208] (-) TimerEvent: {}
+[11.842349] (-) TimerEvent: {}
+[11.943631] (-) TimerEvent: {}
+[11.949467] (mi_robot_servicio) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[12.043850] (-) TimerEvent: {}
+[12.062513] (mi_robot_servicio) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.6", minimum required is "3.6") \n'}
+[12.088011] (mi_robot_servicio) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[12.144125] (-) TimerEvent: {}
+[12.223293] (mi_robot_servicio) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/aarch64-linux-gnu/libpython3.10.so (found suitable version "3.10.6", minimum required is "3.5") \n'}
+[12.224452] (mi_robot_servicio) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[12.225089] (mi_robot_servicio) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[12.225699] (mi_robot_servicio) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/aarch64-linux-gnu/libpython3.10.so\n'}
+[12.244466] (-) TimerEvent: {}
+[12.321287] (mi_robot_servicio) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[12.344701] (-) TimerEvent: {}
+[12.445513] (-) TimerEvent: {}
+[12.521264] (mi_robot_servicio) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[12.540642] (mi_robot_servicio) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[12.545700] (-) TimerEvent: {}
+[12.598560] (mi_robot_servicio) StdoutLine: {'line': b'-- Configuring done\n'}
+[12.645916] (-) TimerEvent: {}
+[12.746692] (-) TimerEvent: {}
+[12.816058] (mi_robot_servicio) StdoutLine: {'line': b'-- Generating done\n'}
+[12.832241] (mi_robot_servicio) StdoutLine: {'line': b'-- Build files have been written to: /home/robotica/ros2taller2/build/mi_robot_servicio\n'}
+[12.846914] (-) TimerEvent: {}
+[12.856186] (mi_robot_servicio) CommandEnded: {'returncode': 0}
+[12.867612] (mi_robot_servicio) JobProgress: {'identifier': 'mi_robot_servicio', 'progress': 'build'}
+[12.868326] (mi_robot_servicio) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/robotica/ros2taller2/build/mi_robot_servicio', '--', '-j4', '-l4'], 'cwd': '/home/robotica/ros2taller2/build/mi_robot_servicio', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'es:en'), ('USER', 'robotica'), ('LC_TIME', 'es_CO.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/robotica/ros2_taller_2/install/mi_robot_servicio/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/robotica'), ('OLDPWD', '/home/robotica'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'es_CO.UTF-8'), ('SYSTEMD_EXEC_PID', '4093'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/robotica/ros2_taller_2/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'robotica'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'robotica'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/robotica-desktop:@/tmp/.ICE-unix/2049,unix/robotica-desktop:/tmp/.ICE-unix/2049'), ('PAPERSIZE', 'letter'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'es_CO.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/f4dbc80a_a5c1_4687_80a2_214530fd0b9c'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'es_CO.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'es_CO.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.100'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '5'), ('AMENT_PREFIX_PATH', '/home/robotica/ros2_taller_2/install/mi_robot_servicio:/home/robotica/ros2_taller_2/install/mi_robot_3:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'es_CO.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'es_CO.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'es_CO.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/robotica/ros2taller2/build/mi_robot_servicio'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/robotica/ros2_taller_2/install/mi_robot_servicio/local/lib/python3.10/dist-packages:/home/robotica/ros2_taller_2/install/mi_robot_3/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'es_CO.UTF-8'), ('LC_PAPER', 'es_CO.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/robotica/ros2_taller_2/install/mi_robot_servicio:/home/robotica/ros2_taller_2/install/mi_robot_3:/opt/ros/humble')]), 'shell': False}
+[12.947149] (-) TimerEvent: {}
+[13.048002] (-) TimerEvent: {}
+[13.068660] (mi_robot_servicio) StdoutLine: {'line': b'[  3%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[13.130135] (mi_robot_servicio) StdoutLine: {'line': b'[  6%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[13.148238] (-) TimerEvent: {}
+[13.175976] (mi_robot_servicio) StdoutLine: {'line': b'[  6%] Built target ament_cmake_python_copy_mi_robot_servicio\n'}
+[13.248702] (-) TimerEvent: {}
+[13.350013] (-) TimerEvent: {}
+[13.451066] (-) TimerEvent: {}
+[13.551920] (-) TimerEvent: {}
+[13.653703] (-) TimerEvent: {}
+[13.755220] (-) TimerEvent: {}
+[13.856049] (-) TimerEvent: {}
+[13.956982] (-) TimerEvent: {}
+[14.057806] (-) TimerEvent: {}
+[14.158688] (-) TimerEvent: {}
+[14.259415] (-) TimerEvent: {}
+[14.360118] (-) TimerEvent: {}
+[14.461175] (-) TimerEvent: {}
+[14.562576] (-) TimerEvent: {}
+[14.664208] (-) TimerEvent: {}
+[14.768072] (-) TimerEvent: {}
+[14.871095] (-) TimerEvent: {}
+[14.906360] (mi_robot_servicio) StdoutLine: {'line': b'running egg_info\n'}
+[14.914456] (mi_robot_servicio) StdoutLine: {'line': b'creating mi_robot_servicio.egg-info\n'}
+[14.919268] (mi_robot_servicio) StdoutLine: {'line': b'writing mi_robot_servicio.egg-info/PKG-INFO\n'}
+[14.927317] (mi_robot_servicio) StdoutLine: {'line': b'writing dependency_links to mi_robot_servicio.egg-info/dependency_links.txt\n'}
+[14.932093] (mi_robot_servicio) StdoutLine: {'line': b'writing top-level names to mi_robot_servicio.egg-info/top_level.txt\n'}
+[14.935453] (mi_robot_servicio) StdoutLine: {'line': b"writing manifest file 'mi_robot_servicio.egg-info/SOURCES.txt'\n"}
+[14.950014] (mi_robot_servicio) StdoutLine: {'line': b"reading manifest file 'mi_robot_servicio.egg-info/SOURCES.txt'\n"}
+[14.953565] (mi_robot_servicio) StdoutLine: {'line': b"writing manifest file 'mi_robot_servicio.egg-info/SOURCES.txt'\n"}
+[14.963030] (mi_robot_servicio) StdoutLine: {'line': b'[  6%] Built target mi_robot_servicio_srv__cpp\n'}
+[14.971573] (-) TimerEvent: {}
+[15.063861] (mi_robot_servicio) StdoutLine: {'line': b'[  9%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[15.066963] (mi_robot_servicio) StdoutLine: {'line': b'[ 12%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[15.071921] (-) TimerEvent: {}
+[15.153548] (mi_robot_servicio) StdoutLine: {'line': b'[ 16%] \x1b[32mBuilding C object CMakeFiles/mi_robot_servicio_srv__rosidl_generator_c.dir/rosidl_generator_c/mi_robot_servicio/srv/detail/player__functions.c.o\x1b[0m\n'}
+[15.172039] (mi_robot_servicio) StdoutLine: {'line': b'[ 16%] Built target ament_cmake_python_build_mi_robot_servicio_egg\n'}
+[15.172703] (-) TimerEvent: {}
+[15.251853] (mi_robot_servicio) StdoutLine: {'line': b'[ 19%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[15.272982] (-) TimerEvent: {}
+[15.373919] (-) TimerEvent: {}
+[15.475545] (-) TimerEvent: {}
+[15.577449] (-) TimerEvent: {}
+[15.679732] (-) TimerEvent: {}
+[15.781273] (-) TimerEvent: {}
+[15.798774] (mi_robot_servicio) StdoutLine: {'line': b'[ 22%] \x1b[32m\x1b[1mLinking C shared library libmi_robot_servicio_srv__rosidl_generator_c.so\x1b[0m\n'}
+[15.881530] (-) TimerEvent: {}
+[15.982532] (-) TimerEvent: {}
+[16.071997] (mi_robot_servicio) StdoutLine: {'line': b'[ 22%] Built target mi_robot_servicio_srv__rosidl_generator_c\n'}
+[16.082712] (-) TimerEvent: {}
+[16.142465] (mi_robot_servicio) StdoutLine: {'line': b'[ 25%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[16.182993] (-) TimerEvent: {}
+[16.284513] (-) TimerEvent: {}
+[16.386082] (-) TimerEvent: {}
+[16.488246] (-) TimerEvent: {}
+[16.589727] (-) TimerEvent: {}
+[16.691225] (-) TimerEvent: {}
+[16.793375] (-) TimerEvent: {}
+[16.895605] (-) TimerEvent: {}
+[16.899288] (mi_robot_servicio) StdoutLine: {'line': b'[ 29%] \x1b[32mBuilding CXX object CMakeFiles/mi_robot_servicio_srv__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/mi_robot_servicio/srv/player__type_support.cpp.o\x1b[0m\n'}
+[16.996138] (-) TimerEvent: {}
+[17.099036] (-) TimerEvent: {}
+[17.187592] (mi_robot_servicio) StdoutLine: {'line': b'[ 32%] \x1b[32mBuilding CXX object CMakeFiles/mi_robot_servicio_srv__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/mi_robot_servicio/srv/detail/player__type_support.cpp.o\x1b[0m\n'}
+[17.199242] (-) TimerEvent: {}
+[17.241007] (mi_robot_servicio) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding CXX object CMakeFiles/mi_robot_servicio_srv__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/mi_robot_servicio/srv/detail/dds_fastrtps/player__type_support.cpp.o\x1b[0m\n'}
+[17.299862] (-) TimerEvent: {}
+[17.401225] (-) TimerEvent: {}
+[17.504294] (-) TimerEvent: {}
+[17.605978] (-) TimerEvent: {}
+[17.710412] (-) TimerEvent: {}
+[17.812157] (-) TimerEvent: {}
+[17.914701] (-) TimerEvent: {}
+[18.016306] (-) TimerEvent: {}
+[18.100487] (mi_robot_servicio) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/mi_robot_servicio_srv__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/mi_robot_servicio/srv/detail/player__type_support_c.cpp.o\x1b[0m\n'}
+[18.116568] (-) TimerEvent: {}
+[18.217838] (-) TimerEvent: {}
+[18.319245] (-) TimerEvent: {}
+[18.420605] (-) TimerEvent: {}
+[18.521987] (-) TimerEvent: {}
+[18.622989] (-) TimerEvent: {}
+[18.724601] (-) TimerEvent: {}
+[18.826169] (-) TimerEvent: {}
+[18.927227] (-) TimerEvent: {}
+[19.028265] (-) TimerEvent: {}
+[19.129537] (-) TimerEvent: {}
+[19.230989] (-) TimerEvent: {}
+[19.402565] (-) TimerEvent: {}
+[19.503426] (-) TimerEvent: {}
+[19.604687] (-) TimerEvent: {}
+[19.705846] (-) TimerEvent: {}
+[19.807139] (-) TimerEvent: {}
+[19.908222] (-) TimerEvent: {}
+[20.009072] (-) TimerEvent: {}
+[20.110178] (-) TimerEvent: {}
+[20.211437] (-) TimerEvent: {}
+[20.312622] (-) TimerEvent: {}
+[20.415474] (-) TimerEvent: {}
+[20.517037] (-) TimerEvent: {}
+[20.618547] (-) TimerEvent: {}
+[20.720011] (-) TimerEvent: {}
+[20.821317] (-) TimerEvent: {}
+[20.922708] (-) TimerEvent: {}
+[21.023984] (-) TimerEvent: {}
+[21.125335] (-) TimerEvent: {}
+[21.226650] (-) TimerEvent: {}
+[21.327979] (-) TimerEvent: {}
+[21.429401] (-) TimerEvent: {}
+[21.530818] (-) TimerEvent: {}
+[21.632105] (-) TimerEvent: {}
+[21.733352] (-) TimerEvent: {}
+[21.834587] (-) TimerEvent: {}
+[21.935775] (-) TimerEvent: {}
+[22.036707] (-) TimerEvent: {}
+[22.137848] (-) TimerEvent: {}
+[22.238904] (-) TimerEvent: {}
+[22.339852] (-) TimerEvent: {}
+[22.440984] (-) TimerEvent: {}
+[22.541902] (-) TimerEvent: {}
+[22.643113] (-) TimerEvent: {}
+[22.744010] (-) TimerEvent: {}
+[22.844826] (-) TimerEvent: {}
+[22.946106] (-) TimerEvent: {}
+[23.047157] (-) TimerEvent: {}
+[23.148531] (-) TimerEvent: {}
+[23.250093] (-) TimerEvent: {}
+[23.351098] (-) TimerEvent: {}
+[23.452633] (-) TimerEvent: {}
+[23.553913] (-) TimerEvent: {}
+[23.655287] (-) TimerEvent: {}
+[23.756543] (-) TimerEvent: {}
+[23.857753] (-) TimerEvent: {}
+[23.959043] (-) TimerEvent: {}
+[24.060202] (-) TimerEvent: {}
+[24.161497] (-) TimerEvent: {}
+[24.262808] (-) TimerEvent: {}
+[27.310566] (-) TimerEvent: {}
+[27.414460] (-) TimerEvent: {}
+[27.522718] (-) TimerEvent: {}
+[27.631379] (-) TimerEvent: {}
+[27.732442] (-) TimerEvent: {}
+[27.833520] (-) TimerEvent: {}
+[27.934761] (-) TimerEvent: {}
+[28.035761] (-) TimerEvent: {}
+[28.136991] (-) TimerEvent: {}
+[28.238400] (-) TimerEvent: {}
+[28.340228] (-) TimerEvent: {}
+[28.441874] (-) TimerEvent: {}
+[28.453445] (mi_robot_servicio) StdoutLine: {'line': b'[ 41%] \x1b[32m\x1b[1mLinking CXX shared library libmi_robot_servicio_srv__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[28.542353] (-) TimerEvent: {}
+[28.644658] (-) TimerEvent: {}
+[28.746341] (-) TimerEvent: {}
+[28.848281] (-) TimerEvent: {}
+[28.950288] (-) TimerEvent: {}
+[29.033658] (mi_robot_servicio) StdoutLine: {'line': b'[ 41%] Built target mi_robot_servicio_srv__rosidl_typesupport_cpp\n'}
+[29.050567] (-) TimerEvent: {}
+[29.130362] (mi_robot_servicio) StdoutLine: {'line': b'[ 45%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[29.150862] (-) TimerEvent: {}
+[29.179447] (mi_robot_servicio) StdoutLine: {'line': b'[ 48%] \x1b[32m\x1b[1mLinking CXX shared library libmi_robot_servicio_srv__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[29.251099] (-) TimerEvent: {}
+[29.352685] (-) TimerEvent: {}
+[29.454914] (-) TimerEvent: {}
+[29.462948] (mi_robot_servicio) StdoutLine: {'line': b'[ 51%] \x1b[32m\x1b[1mLinking CXX shared library libmi_robot_servicio_srv__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[29.555207] (-) TimerEvent: {}
+[29.656312] (-) TimerEvent: {}
+[29.675638] (mi_robot_servicio) StdoutLine: {'line': b'[ 51%] Built target mi_robot_servicio_srv__rosidl_typesupport_introspection_cpp\n'}
+[29.756638] (-) TimerEvent: {}
+[29.787271] (mi_robot_servicio) StdoutLine: {'line': b'[ 54%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[29.860790] (-) TimerEvent: {}
+[29.963058] (-) TimerEvent: {}
+[30.043232] (mi_robot_servicio) StdoutLine: {'line': b'[ 54%] Built target mi_robot_servicio_srv__rosidl_typesupport_fastrtps_cpp\n'}
+[30.063309] (-) TimerEvent: {}
+[30.165148] (-) TimerEvent: {}
+[30.267009] (-) TimerEvent: {}
+[30.369761] (-) TimerEvent: {}
+[30.472005] (-) TimerEvent: {}
+[30.477077] (mi_robot_servicio) StdoutLine: {'line': b'[ 58%] \x1b[32m\x1b[1mLinking CXX shared library libmi_robot_servicio_srv__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[30.572315] (-) TimerEvent: {}
+[30.673761] (-) TimerEvent: {}
+[30.775003] (-) TimerEvent: {}
+[30.876437] (-) TimerEvent: {}
+[30.914686] (mi_robot_servicio) StdoutLine: {'line': b'[ 58%] Built target mi_robot_servicio_srv__rosidl_typesupport_fastrtps_c\n'}
+[30.976643] (-) TimerEvent: {}
+[31.077685] (-) TimerEvent: {}
+[31.178781] (-) TimerEvent: {}
+[31.281798] (-) TimerEvent: {}
+[31.371769] (mi_robot_servicio) StdoutLine: {'line': b'[ 61%] \x1b[32mBuilding CXX object CMakeFiles/mi_robot_servicio_srv__rosidl_typesupport_c.dir/rosidl_typesupport_c/mi_robot_servicio/srv/player__type_support.cpp.o\x1b[0m\n'}
+[31.382091] (-) TimerEvent: {}
+[31.388099] (mi_robot_servicio) StdoutLine: {'line': b'[ 64%] \x1b[32mBuilding C object CMakeFiles/mi_robot_servicio_srv__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/mi_robot_servicio/srv/detail/player__type_support.c.o\x1b[0m\n'}
+[31.482400] (-) TimerEvent: {}
+[31.583273] (-) TimerEvent: {}
+[31.649375] (mi_robot_servicio) StdoutLine: {'line': b'[ 67%] \x1b[32m\x1b[1mLinking CXX shared library libmi_robot_servicio_srv__rosidl_typesupport_c.so\x1b[0m\n'}
+[31.683515] (-) TimerEvent: {}
+[31.784763] (-) TimerEvent: {}
+[31.855456] (mi_robot_servicio) StdoutLine: {'line': b'[ 67%] Built target mi_robot_servicio_srv__rosidl_typesupport_c\n'}
+[31.885068] (-) TimerEvent: {}
+[31.986325] (-) TimerEvent: {}
+[32.087391] (-) TimerEvent: {}
+[32.104037] (mi_robot_servicio) StdoutLine: {'line': b'[ 70%] \x1b[32m\x1b[1mLinking C shared library libmi_robot_servicio_srv__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[32.187603] (-) TimerEvent: {}
+[32.266078] (mi_robot_servicio) StdoutLine: {'line': b'[ 70%] Built target mi_robot_servicio_srv__rosidl_typesupport_introspection_c\n'}
+[32.287815] (-) TimerEvent: {}
+[32.373915] (mi_robot_servicio) StdoutLine: {'line': b'[ 70%] Built target mi_robot_servicio_srv\n'}
+[32.387994] (-) TimerEvent: {}
+[32.484545] (mi_robot_servicio) StdoutLine: {'line': b'[ 74%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[32.488176] (-) TimerEvent: {}
+[32.589051] (-) TimerEvent: {}
+[32.690338] (-) TimerEvent: {}
+[32.791472] (-) TimerEvent: {}
+[32.892238] (-) TimerEvent: {}
+[32.993066] (-) TimerEvent: {}
+[33.093902] (-) TimerEvent: {}
+[33.194836] (-) TimerEvent: {}
+[33.295555] (-) TimerEvent: {}
+[33.396264] (-) TimerEvent: {}
+[33.496963] (-) TimerEvent: {}
+[33.597685] (-) TimerEvent: {}
+[33.698396] (-) TimerEvent: {}
+[33.799103] (-) TimerEvent: {}
+[33.899838] (-) TimerEvent: {}
+[34.000525] (-) TimerEvent: {}
+[34.101214] (-) TimerEvent: {}
+[34.201987] (-) TimerEvent: {}
+[34.303282] (-) TimerEvent: {}
+[34.380044] (mi_robot_servicio) StdoutLine: {'line': b'[ 74%] Built target mi_robot_servicio_srv__py\n'}
+[34.403506] (-) TimerEvent: {}
+[34.486664] (mi_robot_servicio) StdoutLine: {'line': b'[ 77%] \x1b[32mBuilding C object CMakeFiles/mi_robot_servicio_srv__rosidl_generator_py.dir/rosidl_generator_py/mi_robot_servicio/srv/_player_s.c.o\x1b[0m\n'}
+[34.503830] (-) TimerEvent: {}
+[34.604759] (-) TimerEvent: {}
+[34.705743] (-) TimerEvent: {}
+[34.806667] (-) TimerEvent: {}
+[34.907571] (-) TimerEvent: {}
+[35.008589] (-) TimerEvent: {}
+[35.109574] (-) TimerEvent: {}
+[35.210508] (-) TimerEvent: {}
+[35.312265] (-) TimerEvent: {}
+[35.413184] (-) TimerEvent: {}
+[35.414907] (mi_robot_servicio) StdoutLine: {'line': b'[ 80%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/mi_robot_servicio/libmi_robot_servicio_srv__rosidl_generator_py.so\x1b[0m\n'}
+[35.513541] (-) TimerEvent: {}
+[35.614836] (-) TimerEvent: {}
+[35.652445] (mi_robot_servicio) StdoutLine: {'line': b'[ 80%] Built target mi_robot_servicio_srv__rosidl_generator_py\n'}
+[35.715092] (-) TimerEvent: {}
+[35.775766] (mi_robot_servicio) StdoutLine: {'line': b'[ 83%] \x1b[32mBuilding C object CMakeFiles/mi_robot_servicio__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/mi_robot_servicio/_mi_robot_servicio_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[35.781729] (mi_robot_servicio) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding C object CMakeFiles/mi_robot_servicio__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/mi_robot_servicio/_mi_robot_servicio_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[35.785869] (mi_robot_servicio) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding C object CMakeFiles/mi_robot_servicio__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/mi_robot_servicio/_mi_robot_servicio_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[35.815416] (-) TimerEvent: {}
+[35.916412] (-) TimerEvent: {}
+[36.017211] (-) TimerEvent: {}
+[36.118068] (-) TimerEvent: {}
+[36.219132] (-) TimerEvent: {}
+[36.320183] (-) TimerEvent: {}
+[36.417168] (mi_robot_servicio) StdoutLine: {'line': b'[ 93%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/mi_robot_servicio/mi_robot_servicio_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so\x1b[0m\n'}
+[36.418326] (mi_robot_servicio) StdoutLine: {'line': b'[ 96%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/mi_robot_servicio/mi_robot_servicio_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so\x1b[0m\n'}
+[36.420478] (-) TimerEvent: {}
+[36.485861] (mi_robot_servicio) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/mi_robot_servicio/mi_robot_servicio_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so\x1b[0m\n'}
+[36.521132] (-) TimerEvent: {}
+[36.623964] (-) TimerEvent: {}
+[36.642063] (mi_robot_servicio) StdoutLine: {'line': b'[100%] Built target mi_robot_servicio__rosidl_typesupport_c__pyext\n'}
+[36.644817] (mi_robot_servicio) StdoutLine: {'line': b'[100%] Built target mi_robot_servicio__rosidl_typesupport_introspection_c__pyext\n'}
+[36.718151] (mi_robot_servicio) StdoutLine: {'line': b'[100%] Built target mi_robot_servicio__rosidl_typesupport_fastrtps_c__pyext\n'}
+[36.724144] (-) TimerEvent: {}
+[36.782741] (mi_robot_servicio) CommandEnded: {'returncode': 0}
+[36.824378] (-) TimerEvent: {}
+[36.925127] (-) TimerEvent: {}
+[37.025801] (-) TimerEvent: {}
+[37.126523] (-) TimerEvent: {}
+[37.206075] (mi_robot_servicio) JobProgress: {'identifier': 'mi_robot_servicio', 'progress': 'install'}
+[37.226758] (-) TimerEvent: {}
+[37.251557] (mi_robot_servicio) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/robotica/ros2taller2/build/mi_robot_servicio'], 'cwd': '/home/robotica/ros2taller2/build/mi_robot_servicio', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'es:en'), ('USER', 'robotica'), ('LC_TIME', 'es_CO.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/robotica/ros2_taller_2/install/mi_robot_servicio/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/robotica'), ('OLDPWD', '/home/robotica'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'es_CO.UTF-8'), ('SYSTEMD_EXEC_PID', '4093'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/robotica/ros2_taller_2/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'robotica'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'robotica'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/robotica-desktop:@/tmp/.ICE-unix/2049,unix/robotica-desktop:/tmp/.ICE-unix/2049'), ('PAPERSIZE', 'letter'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'es_CO.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/f4dbc80a_a5c1_4687_80a2_214530fd0b9c'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'es_CO.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'es_CO.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.100'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '5'), ('AMENT_PREFIX_PATH', '/home/robotica/ros2_taller_2/install/mi_robot_servicio:/home/robotica/ros2_taller_2/install/mi_robot_3:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'es_CO.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'es_CO.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'es_CO.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/robotica/ros2taller2/build/mi_robot_servicio'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/robotica/ros2_taller_2/install/mi_robot_servicio/local/lib/python3.10/dist-packages:/home/robotica/ros2_taller_2/install/mi_robot_3/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'es_CO.UTF-8'), ('LC_PAPER', 'es_CO.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/robotica/ros2_taller_2/install/mi_robot_servicio:/home/robotica/ros2_taller_2/install/mi_robot_3:/opt/ros/humble')]), 'shell': False}
+[37.297220] (mi_robot_servicio) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[37.298561] (mi_robot_servicio) StdoutLine: {'line': b'-- Installing: /home/robotica/ros2taller2/install/mi_robot_servicio/share/ament_index/resource_index/rosidl_interfaces/mi_robot_servicio\n'}
+[37.303017] (mi_robot_servicio) StdoutLine: {'line': b'-- Installing: /home/robotica/ros2taller2/install/mi_robot_servicio/include/mi_robot_servicio/mi_robot_servicio\n'}
+[37.303979] (mi_robot_servicio) StdoutLine: {'line': b'-- Installing: /home/robotica/ros2taller2/install/mi_robot_servicio/include/mi_robot_servicio/mi_robot_servicio/srv\n'}
+[37.304979] (mi_robot_servicio) StdoutLine: {'line': b'-- Installing: /home/robotica/ros2taller2/install/mi_robot_servicio/include/mi_robot_servicio/mi_robot_servicio/srv/player.h\n'}
+[37.306489] (mi_robot_servicio) StdoutLine: {'line': b'-- Installing: /home/robotica/ros2taller2/install/mi_robot_servicio/include/mi_robot_servicio/mi_robot_servicio/srv/detail\n'}
+[37.307412] (mi_robot_servicio) StdoutLine: {'line': b'-- Installing: /home/robotica/ros2taller2/install/mi_robot_servicio/include/mi_robot_servicio/mi_robot_servicio/srv/detail/player__type_support.h\n'}
+[37.309143] (mi_robot_servicio) StdoutLine: {'line': b'-- Installing: /home/robotica/ros2taller2/install/mi_robot_servicio/include/mi_robot_servicio/mi_robot_servicio/srv/detail/player__functions.h\n'}
+[37.310828] (mi_robot_servicio) StdoutLine: {'line': b'-- Installing: /home/robotica/ros2taller2/install/mi_robot_servicio/include/mi_robot_servicio/mi_robot_servicio/srv/detail/player__functions.c\n'}
+[37.312572] (mi_robot_servicio) StdoutLine: {'line': b'-- Installing: /home/robotica/ros2taller2/install/mi_robot_servicio/include/mi_robot_servicio/mi_robot_servicio/srv/detail/player__struct.h\n'}
+[37.313812] (mi_robot_servicio) StdoutLine: {'line': b'-- Installing: /home/robotica/ros2taller2/install/mi_robot_servicio/include/mi_robot_servicio/mi_robot_servicio/msg\n'}
+[37.314700] (mi_robot_servicio) StdoutLine: {'line': b'-- Installing: /home/robotica/ros2taller2/install/mi_robot_servicio/include/mi_robot_servicio/mi_robot_servicio/msg/rosidl_generator_c__visibility_control.h\n'}
+[37.316723] (mi_robot_servicio) StdoutLine: {'line': b'-- Installing: /home/robotica/ros2taller2/install/mi_robot_servicio/share/mi_robot_servicio/environment/library_path.sh\n'}
+[37.320973] (mi_robot_servicio) StdoutLine: {'line': b'-- Installing: /home/robotica/ros2taller2/install/mi_robot_servicio/share/mi_robot_servicio/environment/library_path.dsv\n'}
+[37.322915] (mi_robot_servicio) StdoutLine: {'line': b'-- Installing: /home/robotica/ros2taller2/install/mi_robot_servicio/lib/libmi_robot_servicio_srv__rosidl_generator_c.so\n'}
+[37.325960] (mi_robot_servicio) StdoutLine: {'line': b'-- Set runtime path of "/home/robotica/ros2taller2/install/mi_robot_servicio/lib/libmi_robot_servicio_srv__rosidl_generator_c.so" to ""\n'}
+[37.326616] (mi_robot_servicio) StdoutLine: {'line': b'-- Up-to-date: /home/robotica/ros2taller2/install/mi_robot_servicio/include/mi_robot_servicio/mi_robot_servicio\n'}
+[37.327151] (-) TimerEvent: {}
+[37.327746] (mi_robot_servicio) StdoutLine: {'line': b'-- Up-to-date: /home/robotica/ros2taller2/install/mi_robot_servicio/include/mi_robot_servicio/mi_robot_servicio/srv\n'}
+[37.328374] (mi_robot_servicio) StdoutLine: {'line': b'-- Up-to-date: /home/robotica/ros2taller2/install/mi_robot_servicio/include/mi_robot_servicio/mi_robot_servicio/srv/detail\n'}
+[37.328784] (mi_robot_servicio) StdoutLine: {'line': b'-- Installing: /home/robotica/ros2taller2/install/mi_robot_servicio/include/mi_robot_servicio/mi_robot_servicio/srv/detail/player__rosidl_typesupport_fastrtps_c.h\n'}
+[37.329729] (mi_robot_servicio) StdoutLine: {'line': b'-- Up-to-date: /home/robotica/ros2taller2/install/mi_robot_servicio/include/mi_robot_servicio/mi_robot_servicio/msg\n'}
+[37.330426] (mi_robot_servicio) StdoutLine: {'line': b'-- Installing: /home/robotica/ros2taller2/install/mi_robot_servicio/include/mi_robot_servicio/mi_robot_servicio/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[37.332445] (mi_robot_servicio) StdoutLine: {'line': b'-- Installing: /home/robotica/ros2taller2/install/mi_robot_servicio/lib/libmi_robot_servicio_srv__rosidl_typesupport_fastrtps_c.so\n'}
+[37.335876] (mi_robot_servicio) StdoutLine: {'line': b'-- Set runtime path of "/home/robotica/ros2taller2/install/mi_robot_servicio/lib/libmi_robot_servicio_srv__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[37.336457] (mi_robot_servicio) StdoutLine: {'line': b'-- Up-to-date: /home/robotica/ros2taller2/install/mi_robot_servicio/include/mi_robot_servicio/mi_robot_servicio\n'}
+[37.336941] (mi_robot_servicio) StdoutLine: {'line': b'-- Up-to-date: /home/robotica/ros2taller2/install/mi_robot_servicio/include/mi_robot_servicio/mi_robot_servicio/srv\n'}
+[37.337405] (mi_robot_servicio) StdoutLine: {'line': b'-- Up-to-date: /home/robotica/ros2taller2/install/mi_robot_servicio/include/mi_robot_servicio/mi_robot_servicio/srv/detail\n'}
+[37.337825] (mi_robot_servicio) StdoutLine: {'line': b'-- Installing: /home/robotica/ros2taller2/install/mi_robot_servicio/include/mi_robot_servicio/mi_robot_servicio/srv/detail/player__type_support.c\n'}
+[37.339611] (mi_robot_servicio) StdoutLine: {'line': b'-- Installing: /home/robotica/ros2taller2/install/mi_robot_servicio/include/mi_robot_servicio/mi_robot_servicio/srv/detail/player__rosidl_typesupport_introspection_c.h\n'}
+[37.341133] (mi_robot_servicio) StdoutLine: {'line': b'-- Up-to-date: /home/robotica/ros2taller2/install/mi_robot_servicio/include/mi_robot_servicio/mi_robot_servicio/msg\n'}
+[37.341806] (mi_robot_servicio) StdoutLine: {'line': b'-- Installing: /home/robotica/ros2taller2/install/mi_robot_servicio/include/mi_robot_servicio/mi_robot_servicio/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[37.343636] (mi_robot_servicio) StdoutLine: {'line': b'-- Installing: /home/robotica/ros2taller2/install/mi_robot_servicio/lib/libmi_robot_servicio_srv__rosidl_typesupport_introspection_c.so\n'}
+[37.346459] (mi_robot_servicio) StdoutLine: {'line': b'-- Set runtime path of "/home/robotica/ros2taller2/install/mi_robot_servicio/lib/libmi_robot_servicio_srv__rosidl_typesupport_introspection_c.so" to ""\n'}
+[37.347094] (mi_robot_servicio) StdoutLine: {'line': b'-- Installing: /home/robotica/ros2taller2/install/mi_robot_servicio/lib/libmi_robot_servicio_srv__rosidl_typesupport_c.so\n'}
+[37.349677] (mi_robot_servicio) StdoutLine: {'line': b'-- Set runtime path of "/home/robotica/ros2taller2/install/mi_robot_servicio/lib/libmi_robot_servicio_srv__rosidl_typesupport_c.so" to ""\n'}
+[37.350324] (mi_robot_servicio) StdoutLine: {'line': b'-- Up-to-date: /home/robotica/ros2taller2/install/mi_robot_servicio/include/mi_robot_servicio/mi_robot_servicio\n'}
+[37.350837] (mi_robot_servicio) StdoutLine: {'line': b'-- Up-to-date: /home/robotica/ros2taller2/install/mi_robot_servicio/include/mi_robot_servicio/mi_robot_servicio/srv\n'}
+[37.351288] (mi_robot_servicio) StdoutLine: {'line': b'-- Installing: /home/robotica/ros2taller2/install/mi_robot_servicio/include/mi_robot_servicio/mi_robot_servicio/srv/player.hpp\n'}
+[37.352300] (mi_robot_servicio) StdoutLine: {'line': b'-- Up-to-date: /home/robotica/ros2taller2/install/mi_robot_servicio/include/mi_robot_servicio/mi_robot_servicio/srv/detail\n'}
+[37.352879] (mi_robot_servicio) StdoutLine: {'line': b'-- Installing: /home/robotica/ros2taller2/install/mi_robot_servicio/include/mi_robot_servicio/mi_robot_servicio/srv/detail/player__builder.hpp\n'}
+[37.354305] (mi_robot_servicio) StdoutLine: {'line': b'-- Installing: /home/robotica/ros2taller2/install/mi_robot_servicio/include/mi_robot_servicio/mi_robot_servicio/srv/detail/player__struct.hpp\n'}
+[37.355849] (mi_robot_servicio) StdoutLine: {'line': b'-- Installing: /home/robotica/ros2taller2/install/mi_robot_servicio/include/mi_robot_servicio/mi_robot_servicio/srv/detail/player__traits.hpp\n'}
+[37.380011] (mi_robot_servicio) StdoutLine: {'line': b'-- Up-to-date: /home/robotica/ros2taller2/install/mi_robot_servicio/include/mi_robot_servicio/mi_robot_servicio\n'}
+[37.380809] (mi_robot_servicio) StdoutLine: {'line': b'-- Up-to-date: /home/robotica/ros2taller2/install/mi_robot_servicio/include/mi_robot_servicio/mi_robot_servicio/srv\n'}
+[37.381348] (mi_robot_servicio) StdoutLine: {'line': b'-- Up-to-date: /home/robotica/ros2taller2/install/mi_robot_servicio/include/mi_robot_servicio/mi_robot_servicio/srv/detail\n'}
+[37.381745] (mi_robot_servicio) StdoutLine: {'line': b'-- Installing: /home/robotica/ros2taller2/install/mi_robot_servicio/include/mi_robot_servicio/mi_robot_servicio/srv/detail/player__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[37.382266] (mi_robot_servicio) StdoutLine: {'line': b'-- Installing: /home/robotica/ros2taller2/install/mi_robot_servicio/include/mi_robot_servicio/mi_robot_servicio/srv/detail/dds_fastrtps\n'}
+[37.382704] (mi_robot_servicio) StdoutLine: {'line': b'-- Up-to-date: /home/robotica/ros2taller2/install/mi_robot_servicio/include/mi_robot_servicio/mi_robot_servicio/msg\n'}
+[37.383285] (mi_robot_servicio) StdoutLine: {'line': b'-- Installing: /home/robotica/ros2taller2/install/mi_robot_servicio/include/mi_robot_servicio/mi_robot_servicio/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[37.383814] (mi_robot_servicio) StdoutLine: {'line': b'-- Installing: /home/robotica/ros2taller2/install/mi_robot_servicio/lib/libmi_robot_servicio_srv__rosidl_typesupport_fastrtps_cpp.so\n'}
+[37.384202] (mi_robot_servicio) StdoutLine: {'line': b'-- Set runtime path of "/home/robotica/ros2taller2/install/mi_robot_servicio/lib/libmi_robot_servicio_srv__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[37.384639] (mi_robot_servicio) StdoutLine: {'line': b'-- Up-to-date: /home/robotica/ros2taller2/install/mi_robot_servicio/include/mi_robot_servicio/mi_robot_servicio\n'}
+[37.385135] (mi_robot_servicio) StdoutLine: {'line': b'-- Up-to-date: /home/robotica/ros2taller2/install/mi_robot_servicio/include/mi_robot_servicio/mi_robot_servicio/srv\n'}
+[37.385570] (mi_robot_servicio) StdoutLine: {'line': b'-- Up-to-date: /home/robotica/ros2taller2/install/mi_robot_servicio/include/mi_robot_servicio/mi_robot_servicio/srv/detail\n'}
+[37.386015] (mi_robot_servicio) StdoutLine: {'line': b'-- Installing: /home/robotica/ros2taller2/install/mi_robot_servicio/include/mi_robot_servicio/mi_robot_servicio/srv/detail/player__type_support.cpp\n'}
+[37.386618] (mi_robot_servicio) StdoutLine: {'line': b'-- Installing: /home/robotica/ros2taller2/install/mi_robot_servicio/include/mi_robot_servicio/mi_robot_servicio/srv/detail/player__rosidl_typesupport_introspection_cpp.hpp\n'}
+[37.387017] (mi_robot_servicio) StdoutLine: {'line': b'-- Installing: /home/robotica/ros2taller2/install/mi_robot_servicio/lib/libmi_robot_servicio_srv__rosidl_typesupport_introspection_cpp.so\n'}
+[37.387366] (mi_robot_servicio) StdoutLine: {'line': b'-- Set runtime path of "/home/robotica/ros2taller2/install/mi_robot_servicio/lib/libmi_robot_servicio_srv__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[37.387703] (mi_robot_servicio) StdoutLine: {'line': b'-- Installing: /home/robotica/ros2taller2/install/mi_robot_servicio/lib/libmi_robot_servicio_srv__rosidl_typesupport_cpp.so\n'}
+[37.388158] (mi_robot_servicio) StdoutLine: {'line': b'-- Set runtime path of "/home/robotica/ros2taller2/install/mi_robot_servicio/lib/libmi_robot_servicio_srv__rosidl_typesupport_cpp.so" to ""\n'}
+[37.388513] (mi_robot_servicio) StdoutLine: {'line': b'-- Installing: /home/robotica/ros2taller2/install/mi_robot_servicio/share/mi_robot_servicio/environment/pythonpath.sh\n'}
+[37.388834] (mi_robot_servicio) StdoutLine: {'line': b'-- Installing: /home/robotica/ros2taller2/install/mi_robot_servicio/share/mi_robot_servicio/environment/pythonpath.dsv\n'}
+[37.389149] (mi_robot_servicio) StdoutLine: {'line': b'-- Installing: /home/robotica/ros2taller2/install/mi_robot_servicio/local/lib/python3.10/dist-packages/mi_robot_servicio-0.0.0-py3.10.egg-info\n'}
+[37.389588] (mi_robot_servicio) StdoutLine: {'line': b'-- Installing: /home/robotica/ros2taller2/install/mi_robot_servicio/local/lib/python3.10/dist-packages/mi_robot_servicio-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[37.389926] (mi_robot_servicio) StdoutLine: {'line': b'-- Installing: /home/robotica/ros2taller2/install/mi_robot_servicio/local/lib/python3.10/dist-packages/mi_robot_servicio-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[37.390670] (mi_robot_servicio) StdoutLine: {'line': b'-- Installing: /home/robotica/ros2taller2/install/mi_robot_servicio/local/lib/python3.10/dist-packages/mi_robot_servicio-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[37.394990] (mi_robot_servicio) StdoutLine: {'line': b'-- Installing: /home/robotica/ros2taller2/install/mi_robot_servicio/local/lib/python3.10/dist-packages/mi_robot_servicio-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[37.396461] (mi_robot_servicio) StdoutLine: {'line': b'-- Installing: /home/robotica/ros2taller2/install/mi_robot_servicio/local/lib/python3.10/dist-packages/mi_robot_servicio\n'}
+[37.397430] (mi_robot_servicio) StdoutLine: {'line': b'-- Installing: /home/robotica/ros2taller2/install/mi_robot_servicio/local/lib/python3.10/dist-packages/mi_robot_servicio/srv\n'}
+[37.398463] (mi_robot_servicio) StdoutLine: {'line': b'-- Installing: /home/robotica/ros2taller2/install/mi_robot_servicio/local/lib/python3.10/dist-packages/mi_robot_servicio/srv/__init__.py\n'}
+[37.399968] (mi_robot_servicio) StdoutLine: {'line': b'-- Installing: /home/robotica/ros2taller2/install/mi_robot_servicio/local/lib/python3.10/dist-packages/mi_robot_servicio/srv/_player.py\n'}
+[37.401509] (mi_robot_servicio) StdoutLine: {'line': b'-- Installing: /home/robotica/ros2taller2/install/mi_robot_servicio/local/lib/python3.10/dist-packages/mi_robot_servicio/srv/_player_s.c\n'}
+[37.403087] (mi_robot_servicio) StdoutLine: {'line': b'-- Installing: /home/robotica/ros2taller2/install/mi_robot_servicio/local/lib/python3.10/dist-packages/mi_robot_servicio/libmi_robot_servicio_srv__rosidl_generator_py.so\n'}
+[37.404919] (mi_robot_servicio) StdoutLine: {'line': b'-- Installing: /home/robotica/ros2taller2/install/mi_robot_servicio/local/lib/python3.10/dist-packages/mi_robot_servicio/__init__.py\n'}
+[37.406457] (mi_robot_servicio) StdoutLine: {'line': b'-- Installing: /home/robotica/ros2taller2/install/mi_robot_servicio/local/lib/python3.10/dist-packages/mi_robot_servicio/mi_robot_servicio_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so\n'}
+[37.408294] (mi_robot_servicio) StdoutLine: {'line': b'-- Installing: /home/robotica/ros2taller2/install/mi_robot_servicio/local/lib/python3.10/dist-packages/mi_robot_servicio/mi_robot_servicio_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so\n'}
+[37.410174] (mi_robot_servicio) StdoutLine: {'line': b'-- Installing: /home/robotica/ros2taller2/install/mi_robot_servicio/local/lib/python3.10/dist-packages/mi_robot_servicio/mi_robot_servicio_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so\n'}
+[37.411973] (mi_robot_servicio) StdoutLine: {'line': b'-- Installing: /home/robotica/ros2taller2/install/mi_robot_servicio/local/lib/python3.10/dist-packages/mi_robot_servicio/_mi_robot_servicio_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[37.413583] (mi_robot_servicio) StdoutLine: {'line': b'-- Installing: /home/robotica/ros2taller2/install/mi_robot_servicio/local/lib/python3.10/dist-packages/mi_robot_servicio/_mi_robot_servicio_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[37.415166] (mi_robot_servicio) StdoutLine: {'line': b'-- Installing: /home/robotica/ros2taller2/install/mi_robot_servicio/local/lib/python3.10/dist-packages/mi_robot_servicio/_mi_robot_servicio_s.ep.rosidl_typesupport_c.c\n'}
+[37.427372] (-) TimerEvent: {}
+[37.528262] (-) TimerEvent: {}
+[37.623785] (mi_robot_servicio) StdoutLine: {'line': b"Listing '/home/robotica/ros2taller2/install/mi_robot_servicio/local/lib/python3.10/dist-packages/mi_robot_servicio'...\n"}
+[37.625134] (mi_robot_servicio) StdoutLine: {'line': b"Compiling '/home/robotica/ros2taller2/install/mi_robot_servicio/local/lib/python3.10/dist-packages/mi_robot_servicio/__init__.py'...\n"}
+[37.626788] (mi_robot_servicio) StdoutLine: {'line': b"Listing '/home/robotica/ros2taller2/install/mi_robot_servicio/local/lib/python3.10/dist-packages/mi_robot_servicio/srv'...\n"}
+[37.627897] (mi_robot_servicio) StdoutLine: {'line': b"Compiling '/home/robotica/ros2taller2/install/mi_robot_servicio/local/lib/python3.10/dist-packages/mi_robot_servicio/srv/__init__.py'...\n"}
+[37.628846] (-) TimerEvent: {}
+[37.629746] (mi_robot_servicio) StdoutLine: {'line': b"Compiling '/home/robotica/ros2taller2/install/mi_robot_servicio/local/lib/python3.10/dist-packages/mi_robot_servicio/srv/_player.py'...\n"}
+[37.653015] (mi_robot_servicio) StdoutLine: {'line': b'-- Installing: /home/robotica/ros2taller2/install/mi_robot_servicio/local/lib/python3.10/dist-packages/mi_robot_servicio/mi_robot_servicio_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so\n'}
+[37.656275] (mi_robot_servicio) StdoutLine: {'line': b'-- Set runtime path of "/home/robotica/ros2taller2/install/mi_robot_servicio/local/lib/python3.10/dist-packages/mi_robot_servicio/mi_robot_servicio_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so" to ""\n'}
+[37.658089] (mi_robot_servicio) StdoutLine: {'line': b'-- Installing: /home/robotica/ros2taller2/install/mi_robot_servicio/local/lib/python3.10/dist-packages/mi_robot_servicio/mi_robot_servicio_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so\n'}
+[37.661805] (mi_robot_servicio) StdoutLine: {'line': b'-- Set runtime path of "/home/robotica/ros2taller2/install/mi_robot_servicio/local/lib/python3.10/dist-packages/mi_robot_servicio/mi_robot_servicio_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so" to ""\n'}
+[37.663900] (mi_robot_servicio) StdoutLine: {'line': b'-- Installing: /home/robotica/ros2taller2/install/mi_robot_servicio/local/lib/python3.10/dist-packages/mi_robot_servicio/mi_robot_servicio_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so\n'}
+[37.667748] (mi_robot_servicio) StdoutLine: {'line': b'-- Set runtime path of "/home/robotica/ros2taller2/install/mi_robot_servicio/local/lib/python3.10/dist-packages/mi_robot_servicio/mi_robot_servicio_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so" to ""\n'}
+[37.668830] (mi_robot_servicio) StdoutLine: {'line': b'-- Installing: /home/robotica/ros2taller2/install/mi_robot_servicio/lib/libmi_robot_servicio_srv__rosidl_generator_py.so\n'}
+[37.671984] (mi_robot_servicio) StdoutLine: {'line': b'-- Set runtime path of "/home/robotica/ros2taller2/install/mi_robot_servicio/lib/libmi_robot_servicio_srv__rosidl_generator_py.so" to ""\n'}
+[37.672978] (mi_robot_servicio) StdoutLine: {'line': b'-- Installing: /home/robotica/ros2taller2/install/mi_robot_servicio/share/mi_robot_servicio/srv/Player.idl\n'}
+[37.674888] (mi_robot_servicio) StdoutLine: {'line': b'-- Installing: /home/robotica/ros2taller2/install/mi_robot_servicio/share/mi_robot_servicio/srv/Player.srv\n'}
+[37.676932] (mi_robot_servicio) StdoutLine: {'line': b'-- Installing: /home/robotica/ros2taller2/install/mi_robot_servicio/share/mi_robot_servicio/srv/Player_Request.msg\n'}
+[37.679060] (mi_robot_servicio) StdoutLine: {'line': b'-- Installing: /home/robotica/ros2taller2/install/mi_robot_servicio/share/mi_robot_servicio/srv/Player_Response.msg\n'}
+[37.681159] (mi_robot_servicio) StdoutLine: {'line': b'-- Installing: /home/robotica/ros2taller2/install/mi_robot_servicio/share/ament_index/resource_index/package_run_dependencies/mi_robot_servicio\n'}
+[37.683427] (mi_robot_servicio) StdoutLine: {'line': b'-- Installing: /home/robotica/ros2taller2/install/mi_robot_servicio/share/ament_index/resource_index/parent_prefix_path/mi_robot_servicio\n'}
+[37.687989] (mi_robot_servicio) StdoutLine: {'line': b'-- Installing: /home/robotica/ros2taller2/install/mi_robot_servicio/share/mi_robot_servicio/environment/ament_prefix_path.sh\n'}
+[37.690342] (mi_robot_servicio) StdoutLine: {'line': b'-- Installing: /home/robotica/ros2taller2/install/mi_robot_servicio/share/mi_robot_servicio/environment/ament_prefix_path.dsv\n'}
+[37.691810] (mi_robot_servicio) StdoutLine: {'line': b'-- Installing: /home/robotica/ros2taller2/install/mi_robot_servicio/share/mi_robot_servicio/environment/path.sh\n'}
+[37.693940] (mi_robot_servicio) StdoutLine: {'line': b'-- Installing: /home/robotica/ros2taller2/install/mi_robot_servicio/share/mi_robot_servicio/environment/path.dsv\n'}
+[37.695569] (mi_robot_servicio) StdoutLine: {'line': b'-- Installing: /home/robotica/ros2taller2/install/mi_robot_servicio/share/mi_robot_servicio/local_setup.bash\n'}
+[37.697225] (mi_robot_servicio) StdoutLine: {'line': b'-- Installing: /home/robotica/ros2taller2/install/mi_robot_servicio/share/mi_robot_servicio/local_setup.sh\n'}
+[37.699144] (mi_robot_servicio) StdoutLine: {'line': b'-- Installing: /home/robotica/ros2taller2/install/mi_robot_servicio/share/mi_robot_servicio/local_setup.zsh\n'}
+[37.700763] (mi_robot_servicio) StdoutLine: {'line': b'-- Installing: /home/robotica/ros2taller2/install/mi_robot_servicio/share/mi_robot_servicio/local_setup.dsv\n'}
+[37.702449] (mi_robot_servicio) StdoutLine: {'line': b'-- Installing: /home/robotica/ros2taller2/install/mi_robot_servicio/share/mi_robot_servicio/package.dsv\n'}
+[37.704473] (mi_robot_servicio) StdoutLine: {'line': b'-- Installing: /home/robotica/ros2taller2/install/mi_robot_servicio/share/ament_index/resource_index/packages/mi_robot_servicio\n'}
+[37.706446] (mi_robot_servicio) StdoutLine: {'line': b'-- Installing: /home/robotica/ros2taller2/install/mi_robot_servicio/share/mi_robot_servicio/cmake/export_mi_robot_servicio_srv__rosidl_generator_cExport.cmake\n'}
+[37.708166] (mi_robot_servicio) StdoutLine: {'line': b'-- Installing: /home/robotica/ros2taller2/install/mi_robot_servicio/share/mi_robot_servicio/cmake/export_mi_robot_servicio_srv__rosidl_generator_cExport-noconfig.cmake\n'}
+[37.710017] (mi_robot_servicio) StdoutLine: {'line': b'-- Installing: /home/robotica/ros2taller2/install/mi_robot_servicio/share/mi_robot_servicio/cmake/export_mi_robot_servicio_srv__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[37.711860] (mi_robot_servicio) StdoutLine: {'line': b'-- Installing: /home/robotica/ros2taller2/install/mi_robot_servicio/share/mi_robot_servicio/cmake/export_mi_robot_servicio_srv__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[37.713653] (mi_robot_servicio) StdoutLine: {'line': b'-- Installing: /home/robotica/ros2taller2/install/mi_robot_servicio/share/mi_robot_servicio/cmake/mi_robot_servicio_srv__rosidl_typesupport_introspection_cExport.cmake\n'}
+[37.715528] (mi_robot_servicio) StdoutLine: {'line': b'-- Installing: /home/robotica/ros2taller2/install/mi_robot_servicio/share/mi_robot_servicio/cmake/mi_robot_servicio_srv__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[37.717307] (mi_robot_servicio) StdoutLine: {'line': b'-- Installing: /home/robotica/ros2taller2/install/mi_robot_servicio/share/mi_robot_servicio/cmake/mi_robot_servicio_srv__rosidl_typesupport_cExport.cmake\n'}
+[37.719035] (mi_robot_servicio) StdoutLine: {'line': b'-- Installing: /home/robotica/ros2taller2/install/mi_robot_servicio/share/mi_robot_servicio/cmake/mi_robot_servicio_srv__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[37.720762] (mi_robot_servicio) StdoutLine: {'line': b'-- Installing: /home/robotica/ros2taller2/install/mi_robot_servicio/share/mi_robot_servicio/cmake/export_mi_robot_servicio_srv__rosidl_generator_cppExport.cmake\n'}
+[37.722549] (mi_robot_servicio) StdoutLine: {'line': b'-- Installing: /home/robotica/ros2taller2/install/mi_robot_servicio/share/mi_robot_servicio/cmake/export_mi_robot_servicio_srv__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[37.724297] (mi_robot_servicio) StdoutLine: {'line': b'-- Installing: /home/robotica/ros2taller2/install/mi_robot_servicio/share/mi_robot_servicio/cmake/export_mi_robot_servicio_srv__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[37.726092] (mi_robot_servicio) StdoutLine: {'line': b'-- Installing: /home/robotica/ros2taller2/install/mi_robot_servicio/share/mi_robot_servicio/cmake/mi_robot_servicio_srv__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[37.728213] (mi_robot_servicio) StdoutLine: {'line': b'-- Installing: /home/robotica/ros2taller2/install/mi_robot_servicio/share/mi_robot_servicio/cmake/mi_robot_servicio_srv__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[37.728938] (-) TimerEvent: {}
+[37.730125] (mi_robot_servicio) StdoutLine: {'line': b'-- Installing: /home/robotica/ros2taller2/install/mi_robot_servicio/share/mi_robot_servicio/cmake/mi_robot_servicio_srv__rosidl_typesupport_cppExport.cmake\n'}
+[37.731931] (mi_robot_servicio) StdoutLine: {'line': b'-- Installing: /home/robotica/ros2taller2/install/mi_robot_servicio/share/mi_robot_servicio/cmake/mi_robot_servicio_srv__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[37.733697] (mi_robot_servicio) StdoutLine: {'line': b'-- Installing: /home/robotica/ros2taller2/install/mi_robot_servicio/share/mi_robot_servicio/cmake/export_mi_robot_servicio_srv__rosidl_generator_pyExport.cmake\n'}
+[37.735585] (mi_robot_servicio) StdoutLine: {'line': b'-- Installing: /home/robotica/ros2taller2/install/mi_robot_servicio/share/mi_robot_servicio/cmake/export_mi_robot_servicio_srv__rosidl_generator_pyExport-noconfig.cmake\n'}
+[37.737194] (mi_robot_servicio) StdoutLine: {'line': b'-- Installing: /home/robotica/ros2taller2/install/mi_robot_servicio/share/mi_robot_servicio/cmake/rosidl_cmake-extras.cmake\n'}
+[37.738705] (mi_robot_servicio) StdoutLine: {'line': b'-- Installing: /home/robotica/ros2taller2/install/mi_robot_servicio/share/mi_robot_servicio/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[37.740481] (mi_robot_servicio) StdoutLine: {'line': b'-- Installing: /home/robotica/ros2taller2/install/mi_robot_servicio/share/mi_robot_servicio/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[37.742152] (mi_robot_servicio) StdoutLine: {'line': b'-- Installing: /home/robotica/ros2taller2/install/mi_robot_servicio/share/mi_robot_servicio/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[37.743782] (mi_robot_servicio) StdoutLine: {'line': b'-- Installing: /home/robotica/ros2taller2/install/mi_robot_servicio/share/mi_robot_servicio/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[37.745325] (mi_robot_servicio) StdoutLine: {'line': b'-- Installing: /home/robotica/ros2taller2/install/mi_robot_servicio/share/mi_robot_servicio/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[37.746899] (mi_robot_servicio) StdoutLine: {'line': b'-- Installing: /home/robotica/ros2taller2/install/mi_robot_servicio/share/mi_robot_servicio/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[37.748485] (mi_robot_servicio) StdoutLine: {'line': b'-- Installing: /home/robotica/ros2taller2/install/mi_robot_servicio/share/mi_robot_servicio/cmake/mi_robot_servicioConfig.cmake\n'}
+[37.749731] (mi_robot_servicio) StdoutLine: {'line': b'-- Installing: /home/robotica/ros2taller2/install/mi_robot_servicio/share/mi_robot_servicio/cmake/mi_robot_servicioConfig-version.cmake\n'}
+[37.751218] (mi_robot_servicio) StdoutLine: {'line': b'-- Installing: /home/robotica/ros2taller2/install/mi_robot_servicio/share/mi_robot_servicio/package.xml\n'}
+[37.764296] (mi_robot_servicio) CommandEnded: {'returncode': 0}
+[37.829780] (-) TimerEvent: {}
+[37.931772] (-) TimerEvent: {}
+[38.032601] (-) TimerEvent: {}
+[38.133283] (-) TimerEvent: {}
+[38.234031] (-) TimerEvent: {}
+[38.338440] (-) TimerEvent: {}
+[38.389716] (mi_robot_servicio) JobEnded: {'identifier': 'mi_robot_servicio', 'rc': 0}
+[38.396619] (-) EventReactorShutdown: {}

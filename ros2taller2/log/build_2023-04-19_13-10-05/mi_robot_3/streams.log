@@ -1,0 +1,30 @@
+[5.334s] Invoking command in '/home/robotica/ros2taller2/src/mi_robot_3': PYTHONPATH=/home/robotica/ros2taller2/build/mi_robot_3/prefix_override:/home/robotica/ros2taller2/install/mi_robot_3/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/mi_robot_3 build --build-base /home/robotica/ros2taller2/build/mi_robot_3/build install --record /home/robotica/ros2taller2/build/mi_robot_3/install.log --single-version-externally-managed
+[7.162s] running egg_info
+[7.167s] writing ../../build/mi_robot_3/mi_robot_3.egg-info/PKG-INFO
+[7.182s] writing dependency_links to ../../build/mi_robot_3/mi_robot_3.egg-info/dependency_links.txt
+[7.185s] writing entry points to ../../build/mi_robot_3/mi_robot_3.egg-info/entry_points.txt
+[7.186s] writing requirements to ../../build/mi_robot_3/mi_robot_3.egg-info/requires.txt
+[7.187s] writing top-level names to ../../build/mi_robot_3/mi_robot_3.egg-info/top_level.txt
+[7.202s] reading manifest file '../../build/mi_robot_3/mi_robot_3.egg-info/SOURCES.txt'
+[7.209s] writing manifest file '../../build/mi_robot_3/mi_robot_3.egg-info/SOURCES.txt'
+[7.210s] running build
+[7.210s] running build_py
+[7.215s] copying mi_robot_3/robot_player.py -> /home/robotica/ros2taller2/build/mi_robot_3/build/lib/mi_robot_3
+[7.217s] running install
+[7.220s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[7.220s]   warnings.warn(
+[7.222s] running install_lib
+[7.226s] copying /home/robotica/ros2taller2/build/mi_robot_3/build/lib/mi_robot_3/robot_player.py -> /home/robotica/ros2taller2/install/mi_robot_3/lib/python3.10/site-packages/mi_robot_3
+[7.232s] byte-compiling /home/robotica/ros2taller2/install/mi_robot_3/lib/python3.10/site-packages/mi_robot_3/robot_player.py to robot_player.cpython-310.pyc
+[7.234s] Sorry: TabError: inconsistent use of tabs and spaces in indentation (robot_player.py, line 30)
+[7.235s] running install_data
+[7.239s] running install_egg_info
+[7.248s] removing '/home/robotica/ros2taller2/install/mi_robot_3/lib/python3.10/site-packages/mi_robot_3-0.0.0-py3.10.egg-info' (and everything under it)
+[7.252s] Copying ../../build/mi_robot_3/mi_robot_3.egg-info to /home/robotica/ros2taller2/install/mi_robot_3/lib/python3.10/site-packages/mi_robot_3-0.0.0-py3.10.egg-info
+[7.260s] running install_scripts
+[7.376s] Installing robot_interfaces script to /home/robotica/ros2taller2/install/mi_robot_3/lib/mi_robot_3
+[7.377s] Installing robot_interfaces_N script to /home/robotica/ros2taller2/install/mi_robot_3/lib/mi_robot_3
+[7.378s] Installing robot_player script to /home/robotica/ros2taller2/install/mi_robot_3/lib/mi_robot_3
+[7.379s] Installing robot_teleop script to /home/robotica/ros2taller2/install/mi_robot_3/lib/mi_robot_3
+[7.386s] writing list of installed files to '/home/robotica/ros2taller2/build/mi_robot_3/install.log'
+[7.576s] Invoked command in '/home/robotica/ros2taller2/src/mi_robot_3' returned '0': PYTHONPATH=/home/robotica/ros2taller2/build/mi_robot_3/prefix_override:/home/robotica/ros2taller2/install/mi_robot_3/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/mi_robot_3 build --build-base /home/robotica/ros2taller2/build/mi_robot_3/build install --record /home/robotica/ros2taller2/build/mi_robot_3/install.log --single-version-externally-managed

@@ -1,0 +1,26 @@
+[4.051s] Invoking command in '/home/robotica/ros2taller2/src/mi_robot_3': PYTHONPATH=/home/robotica/ros2taller2/build/mi_robot_3/prefix_override:/home/robotica/ros2taller2/install/mi_robot_3/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/mi_robot_3 build --build-base /home/robotica/ros2taller2/build/mi_robot_3/build install --record /home/robotica/ros2taller2/build/mi_robot_3/install.log --single-version-externally-managed
+[5.495s] running egg_info
+[5.498s] writing ../../build/mi_robot_3/mi_robot_3.egg-info/PKG-INFO
+[5.500s] writing dependency_links to ../../build/mi_robot_3/mi_robot_3.egg-info/dependency_links.txt
+[5.501s] writing entry points to ../../build/mi_robot_3/mi_robot_3.egg-info/entry_points.txt
+[5.502s] writing requirements to ../../build/mi_robot_3/mi_robot_3.egg-info/requires.txt
+[5.503s] writing top-level names to ../../build/mi_robot_3/mi_robot_3.egg-info/top_level.txt
+[5.522s] reading manifest file '../../build/mi_robot_3/mi_robot_3.egg-info/SOURCES.txt'
+[5.528s] writing manifest file '../../build/mi_robot_3/mi_robot_3.egg-info/SOURCES.txt'
+[5.529s] running build
+[5.529s] running build_py
+[5.538s] running install
+[5.542s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[5.542s]   warnings.warn(
+[5.544s] running install_lib
+[5.554s] running install_data
+[5.561s] running install_egg_info
+[5.572s] removing '/home/robotica/ros2taller2/install/mi_robot_3/lib/python3.10/site-packages/mi_robot_3-0.0.0-py3.10.egg-info' (and everything under it)
+[5.573s] Copying ../../build/mi_robot_3/mi_robot_3.egg-info to /home/robotica/ros2taller2/install/mi_robot_3/lib/python3.10/site-packages/mi_robot_3-0.0.0-py3.10.egg-info
+[5.586s] running install_scripts
+[5.697s] Installing robot_interfaces script to /home/robotica/ros2taller2/install/mi_robot_3/lib/mi_robot_3
+[5.698s] Installing robot_interfaces_N script to /home/robotica/ros2taller2/install/mi_robot_3/lib/mi_robot_3
+[5.700s] Installing robot_player script to /home/robotica/ros2taller2/install/mi_robot_3/lib/mi_robot_3
+[5.700s] Installing robot_teleop script to /home/robotica/ros2taller2/install/mi_robot_3/lib/mi_robot_3
+[5.702s] writing list of installed files to '/home/robotica/ros2taller2/build/mi_robot_3/install.log'
+[5.863s] Invoked command in '/home/robotica/ros2taller2/src/mi_robot_3' returned '0': PYTHONPATH=/home/robotica/ros2taller2/build/mi_robot_3/prefix_override:/home/robotica/ros2taller2/install/mi_robot_3/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/mi_robot_3 build --build-base /home/robotica/ros2taller2/build/mi_robot_3/build install --record /home/robotica/ros2taller2/build/mi_robot_3/install.log --single-version-externally-managed

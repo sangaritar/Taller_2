@@ -1,0 +1,8 @@
+setup.py
+mi_robot_servicio/__init__.py
+mi_robot_servicio.egg-info/PKG-INFO
+mi_robot_servicio.egg-info/SOURCES.txt
+mi_robot_servicio.egg-info/dependency_links.txt
+mi_robot_servicio.egg-info/top_level.txt
+mi_robot_servicio/srv/__init__.py
+mi_robot_servicio/srv/_player.py

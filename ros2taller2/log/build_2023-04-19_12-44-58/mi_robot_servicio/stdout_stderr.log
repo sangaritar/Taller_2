@@ -1,0 +1,22 @@
+[  3%] Built target mi_robot_servicio__cpp
+[ 12%] Built target mi_robot_servicio__rosidl_generator_c
+[ 12%] Built target ament_cmake_python_copy_mi_robot_servicio
+[ 32%] Built target mi_robot_servicio__rosidl_typesupport_cpp
+[ 32%] Built target mi_robot_servicio__rosidl_typesupport_fastrtps_c
+[ 41%] Built target mi_robot_servicio__rosidl_typesupport_introspection_cpp
+[ 51%] Built target mi_robot_servicio__rosidl_typesupport_fastrtps_cpp
+[ 61%] Built target mi_robot_servicio__rosidl_typesupport_introspection_c
+[ 70%] Built target mi_robot_servicio__rosidl_typesupport_c
+[ 70%] Built target mi_robot_servicio
+[ 74%] Built target mi_robot_servicio__py
+[ 80%] Built target mi_robot_servicio__rosidl_generator_py
+[ 87%] Built target mi_robot_servicio__rosidl_typesupport_c__pyext
+[ 93%] Built target mi_robot_servicio__rosidl_typesupport_introspection_c__pyext
+[100%] Built target mi_robot_servicio__rosidl_typesupport_fastrtps_c__pyext
+running egg_info
+writing mi_robot_servicio.egg-info/PKG-INFO
+writing dependency_links to mi_robot_servicio.egg-info/dependency_links.txt
+writing top-level names to mi_robot_servicio.egg-info/top_level.txt
+reading manifest file 'mi_robot_servicio.egg-info/SOURCES.txt'
+writing manifest file 'mi_robot_servicio.egg-info/SOURCES.txt'
+[100%] Built target ament_cmake_python_build_mi_robot_servicio_egg

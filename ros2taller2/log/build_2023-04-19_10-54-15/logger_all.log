@@ -1,0 +1,228 @@
+[1.569s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[1.569s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0xffffadbd7df0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0xffffae62b640>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0xffffae62b640>>)
+[1.729s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[1.729s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[1.730s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[1.730s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[1.730s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[1.730s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[1.730s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/robotica/ros2taller2'
+[1.731s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[1.731s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[1.731s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[1.732s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[1.732s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[1.732s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[1.732s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[1.732s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[1.732s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[1.788s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[1.788s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[1.788s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[1.789s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[1.789s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[1.790s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[1.790s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[1.790s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[1.791s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[1.791s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[1.791s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[1.792s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[1.792s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[1.793s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[1.793s] Level 1:colcon.colcon_core.package_identification:_identify(motores) by extensions ['ignore', 'ignore_ament_install']
+[1.793s] Level 1:colcon.colcon_core.package_identification:_identify(motores) by extension 'ignore'
+[1.794s] Level 1:colcon.colcon_core.package_identification:_identify(motores) by extension 'ignore_ament_install'
+[1.794s] Level 1:colcon.colcon_core.package_identification:_identify(motores) by extensions ['colcon_pkg']
+[1.794s] Level 1:colcon.colcon_core.package_identification:_identify(motores) by extension 'colcon_pkg'
+[1.794s] Level 1:colcon.colcon_core.package_identification:_identify(motores) by extensions ['colcon_meta']
+[1.794s] Level 1:colcon.colcon_core.package_identification:_identify(motores) by extension 'colcon_meta'
+[1.795s] Level 1:colcon.colcon_core.package_identification:_identify(motores) by extensions ['ros']
+[1.795s] Level 1:colcon.colcon_core.package_identification:_identify(motores) by extension 'ros'
+[1.795s] Level 1:colcon.colcon_core.package_identification:_identify(motores) by extensions ['cmake', 'python']
+[1.795s] Level 1:colcon.colcon_core.package_identification:_identify(motores) by extension 'cmake'
+[1.795s] Level 1:colcon.colcon_core.package_identification:_identify(motores) by extension 'python'
+[1.796s] Level 1:colcon.colcon_core.package_identification:_identify(motores) by extensions ['python_setup_py']
+[1.796s] Level 1:colcon.colcon_core.package_identification:_identify(motores) by extension 'python_setup_py'
+[1.796s] Level 1:colcon.colcon_core.package_identification:_identify(motores/Taller2_real) by extensions ['ignore', 'ignore_ament_install']
+[1.797s] Level 1:colcon.colcon_core.package_identification:_identify(motores/Taller2_real) by extension 'ignore'
+[1.797s] Level 1:colcon.colcon_core.package_identification:_identify(motores/Taller2_real) by extension 'ignore_ament_install'
+[1.797s] Level 1:colcon.colcon_core.package_identification:_identify(motores/Taller2_real) by extensions ['colcon_pkg']
+[1.797s] Level 1:colcon.colcon_core.package_identification:_identify(motores/Taller2_real) by extension 'colcon_pkg'
+[1.797s] Level 1:colcon.colcon_core.package_identification:_identify(motores/Taller2_real) by extensions ['colcon_meta']
+[1.797s] Level 1:colcon.colcon_core.package_identification:_identify(motores/Taller2_real) by extension 'colcon_meta'
+[1.798s] Level 1:colcon.colcon_core.package_identification:_identify(motores/Taller2_real) by extensions ['ros']
+[1.798s] Level 1:colcon.colcon_core.package_identification:_identify(motores/Taller2_real) by extension 'ros'
+[1.798s] Level 1:colcon.colcon_core.package_identification:_identify(motores/Taller2_real) by extensions ['cmake', 'python']
+[1.798s] Level 1:colcon.colcon_core.package_identification:_identify(motores/Taller2_real) by extension 'cmake'
+[1.799s] Level 1:colcon.colcon_core.package_identification:_identify(motores/Taller2_real) by extension 'python'
+[1.799s] Level 1:colcon.colcon_core.package_identification:_identify(motores/Taller2_real) by extensions ['python_setup_py']
+[1.799s] Level 1:colcon.colcon_core.package_identification:_identify(motores/Taller2_real) by extension 'python_setup_py'
+[1.799s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[1.800s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[1.800s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[1.800s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[1.800s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[1.801s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[1.801s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[1.801s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[1.801s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[1.802s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[1.802s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[1.802s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[1.802s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[1.802s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[1.803s] Level 1:colcon.colcon_core.package_identification:_identify(src/mi_robot_3) by extensions ['ignore', 'ignore_ament_install']
+[1.803s] Level 1:colcon.colcon_core.package_identification:_identify(src/mi_robot_3) by extension 'ignore'
+[1.803s] Level 1:colcon.colcon_core.package_identification:_identify(src/mi_robot_3) by extension 'ignore_ament_install'
+[1.804s] Level 1:colcon.colcon_core.package_identification:_identify(src/mi_robot_3) by extensions ['colcon_pkg']
+[1.804s] Level 1:colcon.colcon_core.package_identification:_identify(src/mi_robot_3) by extension 'colcon_pkg'
+[1.804s] Level 1:colcon.colcon_core.package_identification:_identify(src/mi_robot_3) by extensions ['colcon_meta']
+[1.804s] Level 1:colcon.colcon_core.package_identification:_identify(src/mi_robot_3) by extension 'colcon_meta'
+[1.804s] Level 1:colcon.colcon_core.package_identification:_identify(src/mi_robot_3) by extensions ['ros']
+[1.804s] Level 1:colcon.colcon_core.package_identification:_identify(src/mi_robot_3) by extension 'ros'
+[1.815s] DEBUG:colcon.colcon_core.package_identification:Package 'src/mi_robot_3' with type 'ros.ament_python' and name 'mi_robot_3'
+[1.815s] Level 1:colcon.colcon_core.package_identification:_identify(src/mi_robot_servicio) by extensions ['ignore', 'ignore_ament_install']
+[1.816s] Level 1:colcon.colcon_core.package_identification:_identify(src/mi_robot_servicio) by extension 'ignore'
+[1.816s] Level 1:colcon.colcon_core.package_identification:_identify(src/mi_robot_servicio) by extension 'ignore_ament_install'
+[1.816s] Level 1:colcon.colcon_core.package_identification:_identify(src/mi_robot_servicio) by extensions ['colcon_pkg']
+[1.816s] Level 1:colcon.colcon_core.package_identification:_identify(src/mi_robot_servicio) by extension 'colcon_pkg'
+[1.817s] Level 1:colcon.colcon_core.package_identification:_identify(src/mi_robot_servicio) by extensions ['colcon_meta']
+[1.817s] Level 1:colcon.colcon_core.package_identification:_identify(src/mi_robot_servicio) by extension 'colcon_meta'
+[1.817s] Level 1:colcon.colcon_core.package_identification:_identify(src/mi_robot_servicio) by extensions ['ros']
+[1.817s] Level 1:colcon.colcon_core.package_identification:_identify(src/mi_robot_servicio) by extension 'ros'
+[1.820s] DEBUG:colcon.colcon_core.package_identification:Package 'src/mi_robot_servicio' with type 'ros.ament_cmake' and name 'mi_robot_servicio'
+[1.820s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[1.820s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[1.821s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[1.821s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[1.821s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[1.925s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[1.925s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[1.940s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 2 installed packages in /home/robotica/ros2taller2/install
+[1.945s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 2 installed packages in /home/robotica/ros2_taller_2/install
+[1.955s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 182 installed packages in /opt/ros/humble
+[1.960s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[2.171s] Level 5:colcon.colcon_core.verb:set package 'mi_robot_3' build argument 'cmake_args' from command line to 'None'
+[2.171s] Level 5:colcon.colcon_core.verb:set package 'mi_robot_3' build argument 'cmake_target' from command line to 'None'
+[2.172s] Level 5:colcon.colcon_core.verb:set package 'mi_robot_3' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.172s] Level 5:colcon.colcon_core.verb:set package 'mi_robot_3' build argument 'cmake_clean_cache' from command line to 'False'
+[2.172s] Level 5:colcon.colcon_core.verb:set package 'mi_robot_3' build argument 'cmake_clean_first' from command line to 'False'
+[2.172s] Level 5:colcon.colcon_core.verb:set package 'mi_robot_3' build argument 'cmake_force_configure' from command line to 'False'
+[2.172s] Level 5:colcon.colcon_core.verb:set package 'mi_robot_3' build argument 'ament_cmake_args' from command line to 'None'
+[2.172s] Level 5:colcon.colcon_core.verb:set package 'mi_robot_3' build argument 'catkin_cmake_args' from command line to 'None'
+[2.172s] Level 5:colcon.colcon_core.verb:set package 'mi_robot_3' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.172s] DEBUG:colcon.colcon_core.verb:Building package 'mi_robot_3' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/robotica/ros2taller2/build/mi_robot_3', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/robotica/ros2taller2/install/mi_robot_3', 'merge_install': False, 'path': '/home/robotica/ros2taller2/src/mi_robot_3', 'symlink_install': False, 'test_result_base': None}
+[2.177s] Level 5:colcon.colcon_core.verb:set package 'mi_robot_servicio' build argument 'cmake_args' from command line to 'None'
+[2.177s] Level 5:colcon.colcon_core.verb:set package 'mi_robot_servicio' build argument 'cmake_target' from command line to 'None'
+[2.177s] Level 5:colcon.colcon_core.verb:set package 'mi_robot_servicio' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.177s] Level 5:colcon.colcon_core.verb:set package 'mi_robot_servicio' build argument 'cmake_clean_cache' from command line to 'False'
+[2.177s] Level 5:colcon.colcon_core.verb:set package 'mi_robot_servicio' build argument 'cmake_clean_first' from command line to 'False'
+[2.178s] Level 5:colcon.colcon_core.verb:set package 'mi_robot_servicio' build argument 'cmake_force_configure' from command line to 'False'
+[2.178s] Level 5:colcon.colcon_core.verb:set package 'mi_robot_servicio' build argument 'ament_cmake_args' from command line to 'None'
+[2.178s] Level 5:colcon.colcon_core.verb:set package 'mi_robot_servicio' build argument 'catkin_cmake_args' from command line to 'None'
+[2.178s] Level 5:colcon.colcon_core.verb:set package 'mi_robot_servicio' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.178s] DEBUG:colcon.colcon_core.verb:Building package 'mi_robot_servicio' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/robotica/ros2taller2/build/mi_robot_servicio', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/robotica/ros2taller2/install/mi_robot_servicio', 'merge_install': False, 'path': '/home/robotica/ros2taller2/src/mi_robot_servicio', 'symlink_install': False, 'test_result_base': None}
+[2.181s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[2.195s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[2.196s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/robotica/ros2taller2/src/mi_robot_3' with build type 'ament_python'
+[2.197s] Level 1:colcon.colcon_core.shell:create_environment_hook('mi_robot_3', 'ament_prefix_path')
+[2.219s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[2.221s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robotica/ros2taller2/install/mi_robot_3/share/mi_robot_3/hook/ament_prefix_path.ps1'
+[2.223s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/robotica/ros2taller2/install/mi_robot_3/share/mi_robot_3/hook/ament_prefix_path.dsv'
+[2.226s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robotica/ros2taller2/install/mi_robot_3/share/mi_robot_3/hook/ament_prefix_path.sh'
+[2.241s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.242s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.281s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/robotica/ros2taller2/src/mi_robot_servicio' with build type 'ament_cmake'
+[2.282s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/robotica/ros2taller2/src/mi_robot_servicio'
+[2.289s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.290s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.674s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/robotica/ros2taller2/src/mi_robot_3'
+[3.680s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.680s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.726s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/robotica/ros2taller2/build/mi_robot_servicio': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robotica/ros2taller2/install/mi_robot_3:/home/robotica/ros2_taller_2/install/mi_robot_3:/opt/ros/humble /usr/bin/cmake --build /home/robotica/ros2taller2/build/mi_robot_servicio -- -j4 -l4
+[6.125s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/robotica/ros2taller2/src/mi_robot_3': PYTHONPATH=/home/robotica/ros2taller2/build/mi_robot_3/prefix_override:/home/robotica/ros2taller2/install/mi_robot_3/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/mi_robot_3 build --build-base /home/robotica/ros2taller2/build/mi_robot_3/build install --record /home/robotica/ros2taller2/build/mi_robot_3/install.log --single-version-externally-managed
+[6.416s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/robotica/ros2taller2/build/mi_robot_servicio' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robotica/ros2taller2/install/mi_robot_3:/home/robotica/ros2_taller_2/install/mi_robot_3:/opt/ros/humble /usr/bin/cmake --build /home/robotica/ros2taller2/build/mi_robot_servicio -- -j4 -l4
+[6.982s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/robotica/ros2taller2/build/mi_robot_servicio': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robotica/ros2taller2/install/mi_robot_3:/home/robotica/ros2_taller_2/install/mi_robot_3:/opt/ros/humble /usr/bin/cmake --install /home/robotica/ros2taller2/build/mi_robot_servicio
+[7.406s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(mi_robot_servicio)
+[7.410s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/robotica/ros2taller2/build/mi_robot_servicio' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robotica/ros2taller2/install/mi_robot_3:/home/robotica/ros2_taller_2/install/mi_robot_3:/opt/ros/humble /usr/bin/cmake --install /home/robotica/ros2taller2/build/mi_robot_servicio
+[7.444s] Level 1:colcon.colcon_core.environment:checking '/home/robotica/ros2taller2/install/mi_robot_servicio' for CMake module files
+[7.451s] Level 1:colcon.colcon_core.environment:checking '/home/robotica/ros2taller2/install/mi_robot_servicio' for CMake config files
+[7.454s] Level 1:colcon.colcon_core.shell:create_environment_hook('mi_robot_servicio', 'cmake_prefix_path')
+[7.462s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robotica/ros2taller2/install/mi_robot_servicio/share/mi_robot_servicio/hook/cmake_prefix_path.ps1'
+[7.465s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/robotica/ros2taller2/install/mi_robot_servicio/share/mi_robot_servicio/hook/cmake_prefix_path.dsv'
+[7.475s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robotica/ros2taller2/install/mi_robot_servicio/share/mi_robot_servicio/hook/cmake_prefix_path.sh'
+[7.483s] Level 1:colcon.colcon_core.environment:checking '/home/robotica/ros2taller2/install/mi_robot_servicio/lib'
+[7.485s] Level 1:colcon.colcon_core.shell:create_environment_hook('mi_robot_servicio', 'ld_library_path_lib')
+[7.496s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robotica/ros2taller2/install/mi_robot_servicio/share/mi_robot_servicio/hook/ld_library_path_lib.ps1'
+[7.499s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/robotica/ros2taller2/install/mi_robot_servicio/share/mi_robot_servicio/hook/ld_library_path_lib.dsv'
+[7.502s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robotica/ros2taller2/install/mi_robot_servicio/share/mi_robot_servicio/hook/ld_library_path_lib.sh'
+[7.505s] Level 1:colcon.colcon_core.environment:checking '/home/robotica/ros2taller2/install/mi_robot_servicio/bin'
+[7.506s] Level 1:colcon.colcon_core.environment:checking '/home/robotica/ros2taller2/install/mi_robot_servicio/lib/pkgconfig/mi_robot_servicio.pc'
+[7.507s] Level 1:colcon.colcon_core.environment:checking '/home/robotica/ros2taller2/install/mi_robot_servicio/lib/python3.10/site-packages'
+[7.509s] Level 1:colcon.colcon_core.environment:checking '/home/robotica/ros2taller2/install/mi_robot_servicio/bin'
+[7.516s] INFO:colcon.colcon_core.shell:Creating package script '/home/robotica/ros2taller2/install/mi_robot_servicio/share/mi_robot_servicio/package.ps1'
+[7.521s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/robotica/ros2taller2/install/mi_robot_servicio/share/mi_robot_servicio/package.dsv'
+[7.524s] INFO:colcon.colcon_core.shell:Creating package script '/home/robotica/ros2taller2/install/mi_robot_servicio/share/mi_robot_servicio/package.sh'
+[7.528s] INFO:colcon.colcon_core.shell:Creating package script '/home/robotica/ros2taller2/install/mi_robot_servicio/share/mi_robot_servicio/package.bash'
+[7.532s] INFO:colcon.colcon_core.shell:Creating package script '/home/robotica/ros2taller2/install/mi_robot_servicio/share/mi_robot_servicio/package.zsh'
+[7.535s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/robotica/ros2taller2/install/mi_robot_servicio/share/colcon-core/packages/mi_robot_servicio)
+[8.029s] Level 1:colcon.colcon_core.environment:checking '/home/robotica/ros2taller2/install/mi_robot_3' for CMake module files
+[8.031s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/robotica/ros2taller2/src/mi_robot_3' returned '0': PYTHONPATH=/home/robotica/ros2taller2/build/mi_robot_3/prefix_override:/home/robotica/ros2taller2/install/mi_robot_3/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/mi_robot_3 build --build-base /home/robotica/ros2taller2/build/mi_robot_3/build install --record /home/robotica/ros2taller2/build/mi_robot_3/install.log --single-version-externally-managed
+[8.034s] Level 1:colcon.colcon_core.environment:checking '/home/robotica/ros2taller2/install/mi_robot_3' for CMake config files
+[8.038s] Level 1:colcon.colcon_core.environment:checking '/home/robotica/ros2taller2/install/mi_robot_3/lib'
+[8.039s] Level 1:colcon.colcon_core.environment:checking '/home/robotica/ros2taller2/install/mi_robot_3/bin'
+[8.040s] Level 1:colcon.colcon_core.environment:checking '/home/robotica/ros2taller2/install/mi_robot_3/lib/pkgconfig/mi_robot_3.pc'
+[8.041s] Level 1:colcon.colcon_core.environment:checking '/home/robotica/ros2taller2/install/mi_robot_3/lib/python3.10/site-packages'
+[8.042s] Level 1:colcon.colcon_core.shell:create_environment_hook('mi_robot_3', 'pythonpath')
+[8.048s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robotica/ros2taller2/install/mi_robot_3/share/mi_robot_3/hook/pythonpath.ps1'
+[8.051s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/robotica/ros2taller2/install/mi_robot_3/share/mi_robot_3/hook/pythonpath.dsv'
+[8.053s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robotica/ros2taller2/install/mi_robot_3/share/mi_robot_3/hook/pythonpath.sh'
+[8.057s] Level 1:colcon.colcon_core.environment:checking '/home/robotica/ros2taller2/install/mi_robot_3/bin'
+[8.057s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(mi_robot_3)
+[8.063s] INFO:colcon.colcon_core.shell:Creating package script '/home/robotica/ros2taller2/install/mi_robot_3/share/mi_robot_3/package.ps1'
+[8.066s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/robotica/ros2taller2/install/mi_robot_3/share/mi_robot_3/package.dsv'
+[8.069s] INFO:colcon.colcon_core.shell:Creating package script '/home/robotica/ros2taller2/install/mi_robot_3/share/mi_robot_3/package.sh'
+[8.073s] INFO:colcon.colcon_core.shell:Creating package script '/home/robotica/ros2taller2/install/mi_robot_3/share/mi_robot_3/package.bash'
+[8.075s] INFO:colcon.colcon_core.shell:Creating package script '/home/robotica/ros2taller2/install/mi_robot_3/share/mi_robot_3/package.zsh'
+[8.077s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/robotica/ros2taller2/install/mi_robot_3/share/colcon-core/packages/mi_robot_3)
+[8.089s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(mi_robot_servicio)
+[8.104s] Level 1:colcon.colcon_core.environment:checking '/home/robotica/ros2taller2/install/mi_robot_servicio' for CMake module files
+[8.111s] Level 1:colcon.colcon_core.environment:checking '/home/robotica/ros2taller2/install/mi_robot_servicio' for CMake config files
+[8.114s] Level 1:colcon.colcon_core.shell:create_environment_hook('mi_robot_servicio', 'cmake_prefix_path')
+[8.121s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robotica/ros2taller2/install/mi_robot_servicio/share/mi_robot_servicio/hook/cmake_prefix_path.ps1'
+[8.125s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/robotica/ros2taller2/install/mi_robot_servicio/share/mi_robot_servicio/hook/cmake_prefix_path.dsv'
+[8.129s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robotica/ros2taller2/install/mi_robot_servicio/share/mi_robot_servicio/hook/cmake_prefix_path.sh'
+[8.135s] Level 1:colcon.colcon_core.environment:checking '/home/robotica/ros2taller2/install/mi_robot_servicio/lib'
+[8.136s] Level 1:colcon.colcon_core.shell:create_environment_hook('mi_robot_servicio', 'ld_library_path_lib')
+[8.142s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robotica/ros2taller2/install/mi_robot_servicio/share/mi_robot_servicio/hook/ld_library_path_lib.ps1'
+[8.144s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/robotica/ros2taller2/install/mi_robot_servicio/share/mi_robot_servicio/hook/ld_library_path_lib.dsv'
+[8.146s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robotica/ros2taller2/install/mi_robot_servicio/share/mi_robot_servicio/hook/ld_library_path_lib.sh'
+[8.148s] Level 1:colcon.colcon_core.environment:checking '/home/robotica/ros2taller2/install/mi_robot_servicio/bin'
+[8.148s] Level 1:colcon.colcon_core.environment:checking '/home/robotica/ros2taller2/install/mi_robot_servicio/lib/pkgconfig/mi_robot_servicio.pc'
+[8.149s] Level 1:colcon.colcon_core.environment:checking '/home/robotica/ros2taller2/install/mi_robot_servicio/lib/python3.10/site-packages'
+[8.151s] Level 1:colcon.colcon_core.environment:checking '/home/robotica/ros2taller2/install/mi_robot_servicio/bin'
+[8.158s] INFO:colcon.colcon_core.shell:Creating package script '/home/robotica/ros2taller2/install/mi_robot_servicio/share/mi_robot_servicio/package.ps1'
+[8.161s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/robotica/ros2taller2/install/mi_robot_servicio/share/mi_robot_servicio/package.dsv'
+[8.164s] INFO:colcon.colcon_core.shell:Creating package script '/home/robotica/ros2taller2/install/mi_robot_servicio/share/mi_robot_servicio/package.sh'
+[8.167s] INFO:colcon.colcon_core.shell:Creating package script '/home/robotica/ros2taller2/install/mi_robot_servicio/share/mi_robot_servicio/package.bash'
+[8.170s] INFO:colcon.colcon_core.shell:Creating package script '/home/robotica/ros2taller2/install/mi_robot_servicio/share/mi_robot_servicio/package.zsh'
+[8.173s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/robotica/ros2taller2/install/mi_robot_servicio/share/colcon-core/packages/mi_robot_servicio)
+[8.175s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[8.176s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[8.177s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[8.179s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[8.232s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[8.233s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[8.233s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[8.320s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[8.326s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/robotica/ros2taller2/install/local_setup.ps1'
+[8.331s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/robotica/ros2taller2/install/_local_setup_util_ps1.py'
+[8.342s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/robotica/ros2taller2/install/setup.ps1'
+[8.355s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/robotica/ros2taller2/install/local_setup.sh'
+[8.359s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/robotica/ros2taller2/install/_local_setup_util_sh.py'
+[8.367s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/robotica/ros2taller2/install/setup.sh'
+[8.379s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/robotica/ros2taller2/install/local_setup.bash'
+[8.383s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/robotica/ros2taller2/install/setup.bash'
+[8.395s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/robotica/ros2taller2/install/local_setup.zsh'
+[8.400s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/robotica/ros2taller2/install/setup.zsh'

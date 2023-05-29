@@ -1,0 +1,51 @@
+[3.865s] Invoking command in '/home/robotica/ros2taller2/src/mi_robot_3': PYTHONPATH=/home/robotica/ros2taller2/build/mi_robot_3/prefix_override:/home/robotica/ros2taller2/install/mi_robot_3/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/mi_robot_3 build --build-base /home/robotica/ros2taller2/build/mi_robot_3/build install --record /home/robotica/ros2taller2/build/mi_robot_3/install.log --single-version-externally-managed
+[5.505s] running egg_info
+[5.507s] creating ../../build/mi_robot_3/mi_robot_3.egg-info
+[5.509s] writing ../../build/mi_robot_3/mi_robot_3.egg-info/PKG-INFO
+[5.510s] writing dependency_links to ../../build/mi_robot_3/mi_robot_3.egg-info/dependency_links.txt
+[5.511s] writing entry points to ../../build/mi_robot_3/mi_robot_3.egg-info/entry_points.txt
+[5.512s] writing requirements to ../../build/mi_robot_3/mi_robot_3.egg-info/requires.txt
+[5.513s] writing top-level names to ../../build/mi_robot_3/mi_robot_3.egg-info/top_level.txt
+[5.522s] writing manifest file '../../build/mi_robot_3/mi_robot_3.egg-info/SOURCES.txt'
+[5.526s] reading manifest file '../../build/mi_robot_3/mi_robot_3.egg-info/SOURCES.txt'
+[5.543s] writing manifest file '../../build/mi_robot_3/mi_robot_3.egg-info/SOURCES.txt'
+[5.546s] running build
+[5.547s] running build_py
+[5.548s] creating /home/robotica/ros2taller2/build/mi_robot_3/build
+[5.549s] creating /home/robotica/ros2taller2/build/mi_robot_3/build/lib
+[5.550s] creating /home/robotica/ros2taller2/build/mi_robot_3/build/lib/mi_robot_3
+[5.551s] copying mi_robot_3/__init__.py -> /home/robotica/ros2taller2/build/mi_robot_3/build/lib/mi_robot_3
+[5.552s] copying mi_robot_3/robot_interfaces_N.py -> /home/robotica/ros2taller2/build/mi_robot_3/build/lib/mi_robot_3
+[5.554s] copying mi_robot_3/robot_teleop.py -> /home/robotica/ros2taller2/build/mi_robot_3/build/lib/mi_robot_3
+[5.556s] copying mi_robot_3/robot_interfaces.py -> /home/robotica/ros2taller2/build/mi_robot_3/build/lib/mi_robot_3
+[5.559s] copying mi_robot_3/robot_player.py -> /home/robotica/ros2taller2/build/mi_robot_3/build/lib/mi_robot_3
+[5.561s] running install
+[5.563s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[5.564s]   warnings.warn(
+[5.565s] running install_lib
+[5.569s] creating /home/robotica/ros2taller2/install/mi_robot_3/lib/python3.10/site-packages/mi_robot_3
+[5.570s] copying /home/robotica/ros2taller2/build/mi_robot_3/build/lib/mi_robot_3/__init__.py -> /home/robotica/ros2taller2/install/mi_robot_3/lib/python3.10/site-packages/mi_robot_3
+[5.570s] copying /home/robotica/ros2taller2/build/mi_robot_3/build/lib/mi_robot_3/robot_interfaces_N.py -> /home/robotica/ros2taller2/install/mi_robot_3/lib/python3.10/site-packages/mi_robot_3
+[5.571s] copying /home/robotica/ros2taller2/build/mi_robot_3/build/lib/mi_robot_3/robot_teleop.py -> /home/robotica/ros2taller2/install/mi_robot_3/lib/python3.10/site-packages/mi_robot_3
+[5.572s] copying /home/robotica/ros2taller2/build/mi_robot_3/build/lib/mi_robot_3/robot_interfaces.py -> /home/robotica/ros2taller2/install/mi_robot_3/lib/python3.10/site-packages/mi_robot_3
+[5.573s] copying /home/robotica/ros2taller2/build/mi_robot_3/build/lib/mi_robot_3/robot_player.py -> /home/robotica/ros2taller2/install/mi_robot_3/lib/python3.10/site-packages/mi_robot_3
+[5.576s] byte-compiling /home/robotica/ros2taller2/install/mi_robot_3/lib/python3.10/site-packages/mi_robot_3/__init__.py to __init__.cpython-310.pyc
+[5.578s] byte-compiling /home/robotica/ros2taller2/install/mi_robot_3/lib/python3.10/site-packages/mi_robot_3/robot_interfaces_N.py to robot_interfaces_N.cpython-310.pyc
+[5.589s] byte-compiling /home/robotica/ros2taller2/install/mi_robot_3/lib/python3.10/site-packages/mi_robot_3/robot_teleop.py to robot_teleop.cpython-310.pyc
+[5.593s] byte-compiling /home/robotica/ros2taller2/install/mi_robot_3/lib/python3.10/site-packages/mi_robot_3/robot_interfaces.py to robot_interfaces.cpython-310.pyc
+[5.596s] byte-compiling /home/robotica/ros2taller2/install/mi_robot_3/lib/python3.10/site-packages/mi_robot_3/robot_player.py to robot_player.cpython-310.pyc
+[5.599s] running install_data
+[5.601s] creating /home/robotica/ros2taller2/install/mi_robot_3/share/ament_index
+[5.602s] creating /home/robotica/ros2taller2/install/mi_robot_3/share/ament_index/resource_index
+[5.603s] creating /home/robotica/ros2taller2/install/mi_robot_3/share/ament_index/resource_index/packages
+[5.603s] copying resource/mi_robot_3 -> /home/robotica/ros2taller2/install/mi_robot_3/share/ament_index/resource_index/packages
+[5.604s] copying package.xml -> /home/robotica/ros2taller2/install/mi_robot_3/share/mi_robot_3
+[5.607s] running install_egg_info
+[5.617s] Copying ../../build/mi_robot_3/mi_robot_3.egg-info to /home/robotica/ros2taller2/install/mi_robot_3/lib/python3.10/site-packages/mi_robot_3-0.0.0-py3.10.egg-info
+[5.624s] running install_scripts
+[5.760s] Installing robot_interfaces script to /home/robotica/ros2taller2/install/mi_robot_3/lib/mi_robot_3
+[5.761s] Installing robot_interfaces_N script to /home/robotica/ros2taller2/install/mi_robot_3/lib/mi_robot_3
+[5.762s] Installing robot_player script to /home/robotica/ros2taller2/install/mi_robot_3/lib/mi_robot_3
+[5.762s] Installing robot_teleop script to /home/robotica/ros2taller2/install/mi_robot_3/lib/mi_robot_3
+[5.764s] writing list of installed files to '/home/robotica/ros2taller2/build/mi_robot_3/install.log'
+[5.984s] Invoked command in '/home/robotica/ros2taller2/src/mi_robot_3' returned '0': PYTHONPATH=/home/robotica/ros2taller2/build/mi_robot_3/prefix_override:/home/robotica/ros2taller2/install/mi_robot_3/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/mi_robot_3 build --build-base /home/robotica/ros2taller2/build/mi_robot_3/build install --record /home/robotica/ros2taller2/build/mi_robot_3/install.log --single-version-externally-managed
